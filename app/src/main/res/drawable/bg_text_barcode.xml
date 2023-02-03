@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true">
+        <!-- 직접 selector를 그리겠다고 선언 -->
+        <shape> <!--모양-->
+            <!-- 도형안에 채워질 색을 정의한다. -->
+            <solid android:color="#ffffff" /><!--모양-->
+
+            <!-- 각 모서리의 라운드 처리 - 값이 클수록 라운드의 각이 커진다 -->
+            <corners android:radius="10dp" /><!--코너 라운드처리-->
+        </shape>
+    </item>
+
+    <item android:state_enabled="false">
+        <shape> <!--모양-->
+            <solid android:color="#e6e6e6" /><!--모양-->
+
+            <corners android:radius="10dp" /><!--코너 라운드처리-->
+
+            <!-- width : 테두리 선의 굵기, color : 테두리 선의 색을 정의 -->
+            <stroke android:width="2dp" android:color="#d9ddde" />  <!--테두리 설정-->
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:weightSum="20">
+
+        <!-- Tracking No -->
+        <TextView
+            android:id="@+id/tracking_no"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center|left"
+            android:text="TrackingNo"
+            android:textColor="@color/colorHeadTitle"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <!-- 품목명 -->
+        <TextView
+            android:id="@+id/item_nm"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:ellipsize="end"
+            android:gravity="center|left"
+            android:maxLines="1"
+            android:paddingLeft="10dp"
+            android:text="ItemNm"
+            android:textColor="@color/colorHeadTitle"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <!-- WMS에서만 사용하는 테이블(ZZ_WMS_I_ONHAND_STOCK_DETAIL)의 양품수량 -->
+        <TextView
+            android:id="@+id/wms_qty"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center|right"
+            android:paddingLeft="10dp"
+            android:text="WmsQty"
+            android:textColor="@color/colorHeadTitle"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <!-- 창고명 -->
+        <TextView
+            android:id="@+id/sl_nm"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center|right"
+            android:paddingLeft="10dp"
+            android:text="SlNm"
+            android:textColor="@color/colorHeadTitle"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="16">
+
+        <!-- 품목코드 -->
+        <TextView
+            android:id="@+id/item_cd"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:gravity="center|left"
+            android:text="ItemCd"
+            android:textColor="@color/colorHeadTitle"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <!-- 창고코드 -->
+        <TextView
+            android:id="@+id/sl_cd"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:text="SlCd"
+            android:textColor="@color/colorHeadTitle"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <!-- 양품수량 -->
+        <TextView
+            android:id="@+id/good_on_hand_qty"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:text="GoodOnHandQty"
+            android:textColor="@color/colorHeadTitle"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <!-- Good Qty -->
+        <TextView
+            android:id="@+id/good_qty"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:text="GoodQty"
+            android:textColor="@color/colorHeadTitle"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

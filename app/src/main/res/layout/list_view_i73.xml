@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:weightSum="9">
+
+
+        <CheckedTextView
+            android:id="@+id/CHK_TEXT"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+            android:gravity="center"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/ITEM_NM"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center|left"
+            android:paddingLeft="20dp"
+            android:text="품목"
+            android:textStyle="bold"
+            android:textSize="10dp"
+            android:textColor="@color/colorBlack" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="창고"
+            android:id="@+id/SL_NM"
+            android:layout_weight="3"
+            android:paddingLeft="10dp"
+            android:textColor="@color/colorBlack"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="10dp"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:weightSum="9">
+
+        <TextView
+            android:id="@+id/QTY"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center|left"
+            android:paddingLeft="20dp"
+            android:text="수량"
+            android:textStyle="bold"
+            android:textSize="10dp"
+            android:textColor="@color/colorBlack" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="적치장"
+            android:id="@+id/LOCATION"
+            android:layout_weight="3"
+            android:paddingLeft="10dp"
+            android:textColor="@color/colorBlack"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="10dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="TRACKING_NO"
+            android:id="@+id/TRACKING_NO"
+            android:layout_weight="3"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:gravity="center|right"
+            android:textSize="10dp"
+            android:textColor="@color/colorBlack"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:weightSum="9">
+
+        <TextView
+            android:id="@+id/INV_NO"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center|left"
+            android:paddingLeft="20dp"
+            android:text="INV_NO"
+            android:textStyle="bold"
+            android:textSize="10dp"
+            android:textColor="@color/colorBlack" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="INV_SEQ"
+            android:id="@+id/INV_SEQ"
+            android:layout_weight="3"
+            android:paddingLeft="10dp"
+            android:textColor="@color/colorBlack"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="10dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,183 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.GMAX" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- EMK theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppLightTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryDark">@color/purple_500</item>
+        <item name="colorAccent">@color/purple_700</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppDarkTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/purple_200</item>
+        <item name="colorSecondary">@color/teal_200</item>
+
+        <item name="background">@color/white</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorError">@color/error</item>
+
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorOnBackground">@color/black</item>
+        <item name="colorOnSurface">@color/black</item>
+        <item name="colorOnError">@color/white</item>
+
+        <item name="actionModeStyle">@style/Widget.App.ActionMode</item>
+        <item name="actionModeCloseDrawable">@drawable/ic_baseline_close_24</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.MaterialComponents.Dark.ActionBar</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- 재현대리님 Design -->
+    <style name="AppJHTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/JH_primaryColor</item>
+        <item name="colorPrimaryVariant">@color/JH_primaryDarkColor</item>
+        <item name="colorSecondary">@color/JH_secondaryColor</item>
+
+        <item name="background">@color/white</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorError">@color/error</item>
+
+        <item name="colorOnPrimary">@color/JH_primaryTextColor</item>
+        <item name="colorOnSecondary">@color/JH_secondaryTextColor</item>
+        <item name="colorOnBackground">@color/black</item>
+        <item name="colorOnSurface">@color/black</item>
+        <item name="colorOnError">@color/white</item>
+
+        <item name="actionModeStyle">@style/Widget.App.ActionMode</item>
+        <item name="actionModeCloseDrawable">@drawable/ic_baseline_close_24</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.MaterialComponents.Dark.ActionBar</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!-- 재현대리님 Design -->
+
+    <!-- 요정님 Design -->
+    <style name="AppYJTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/YJ_primaryColor</item>
+        <item name="colorPrimaryVariant">@color/YJ_primaryDarkColor</item>
+        <item name="colorSecondary">@color/YJ_secondaryColor</item>
+
+        <item name="background">@color/white</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorError">@color/error</item>
+
+        <item name="colorOnPrimary">@color/YJ_primaryTextColor</item>
+        <item name="colorOnSecondary">@color/YJ_secondaryTextColor</item>
+        <item name="colorOnBackground">@color/black</item>
+        <item name="colorOnSurface">@color/black</item>
+        <item name="colorOnError">@color/white</item>
+
+        <item name="actionModeStyle">@style/Widget.App.ActionMode</item>
+        <item name="actionModeCloseDrawable">@drawable/ic_baseline_close_24</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.MaterialComponents.Dark.ActionBar</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!-- 요정님 Design -->
+
+    <!-- 과장님 Design -->
+    <style name="AppGJTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/GJ_secondaryColor</item>
+        <item name="colorSecondary">@color/GJ_primaryColor</item>
+
+        <item name="colorOnPrimary">@color/GJ_secondaryTextColor</item>
+        <item name="colorOnSecondary">@color/GJ_primaryTextColor</item>
+
+        <item name="background">@color/colorBackGround</item>
+
+        <item name="actionBarTheme">@style/ThemeOverlay.MaterialComponents.Dark.ActionBar</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!-- 과장님 Design -->
+
+    <!--팝업 창 테마 디자인-->
+    <style name="AppTheme_Popup" parent="Theme.AppCompat.DayNight.Dialog">
+        <item name="android:windowMinWidthMajor">@dimen/abc_dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@dimen/abc_dialog_min_width_minor</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>   <!--타이틀 숨기기 -->
+    </style>
+
+    <!-- 완전 투명용 -->
+    <style name="allDim" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <!-- 검정 반투명용 -->
+    <style name="halfDim" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <!-- 배경 투명 -->
+    <style name="Transparent" parent="@style/Theme.AppCompat">
+        <!-- Titlebar 없애는 옵션
+            true    : Titlebar x
+            false   : Titlebar o
+        -->
+        <item name="windowNoTitle">false</item>
+        <!-- 투명정도를 나타내는 색 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <!--
+            android:backgroundDimEnabled
+            true - 반투명 검정 / false - 완전 투명
+        -->
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <!-- EMK theme. -->
+
+    <style name="Widget.App.ActionMode" parent="Widget.AppCompat.ActionMode">
+        <item name="titleTextStyle">?attr/textAppearanceHeadline6</item>
+        <item name="subtitleTextStyle">?attr/textAppearanceSubtitle1</item>
+        <item name="background">@color/material_grey_900</item>
+    </style>
+
+    <style name="AppGJTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppGJTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppGJTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

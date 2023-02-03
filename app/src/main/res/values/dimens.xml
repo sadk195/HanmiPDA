@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="_10sp">10dp</dimen>
+    <dimen name="_15sp">15dp</dimen>
+    <dimen name="_18sp">18dp</dimen>
+    <dimen name="_20sp">20dp</dimen>
+
+    <!-- 중메뉴 버튼 텍스트 사이즈 -->
+    <dimen name="menu_btn_size">23dp</dimen>
+
+    <!-- Elevation -->
+    <dimen name="el_0dp">0dp</dimen>
+    <dimen name="el_5dp">5dp</dimen>
+
+    <!-- Material Outline Button 외곽선 두께 -->
+    <dimen name="btn_stroke">2dp</dimen>
+
+    <!-- AppBar Expended -->
+    <dimen name="expended_start">45dp</dimen>
+    <dimen name="expended_bottom">28dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

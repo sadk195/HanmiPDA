@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/drawable-v24/bg_box.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/drawable-v24/bg_btn_popup.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/drawable-v24/bg_btn_right_after.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/drawable-v24/bg_btn_user.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/drawable-v24/bg_btn_user_notend.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/drawable-v24/bg_prg_menu1.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/drawable-v24/selector_btn.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/drawable-v24/selector_btn_left.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/drawable/bg_btn.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/drawable/bg_btn_end.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/drawable/bg_btn_gray.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/drawable/bg_btn_green.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/drawable/bg_btn_red.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/drawable/bg_header.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/drawable/bg_text.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/drawable/bg_text_barcode.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/drawable/bg_text_ess.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/drawable/bg_toggle.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/drawable/bg_toggle_blue.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/drawable/bottom_sheet_background.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/drawable/ic_baseline_insert_invitation_24.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/drawable/menu_recycler_item.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_config.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_error_popup.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_i10.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_i11_dtl.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_i11_hdr.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_i13_query.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_i20.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_i21_dtl.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_i22_dtl.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_i22_hdr.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_i25_query.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_i26_hdr.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_i27_dtl.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_i30.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_i31_dtl.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_i35_dtl.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_i36_query.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_i40.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_i50.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_i60.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_i62_hdr.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_i62_popup.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_i62_popup_edit_qty.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_i70.xml" value="0.2717391304347826" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_i71.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_i72.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_i73.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_i74.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_i76.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_i78.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_m10.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_m11_dtl.xml" value="0.2717391304347826" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_m12_query.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_m20.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_m21_dtl.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_m22.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_m22_query.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_m30.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_m31_hdr.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_main.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_menu.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_p10.xml" value="0.2717391304347826" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_p14_query.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_s10.xml" value="0.2717391304347826" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_s14_hdr.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_s15_query.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_s16_hdr.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_s17_hdr.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_s17_shipment_status_popup.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_search.xml" value="0.3016304347826087" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/activity_splash.xml" value="0.2717391304347826" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/bg_btn_red.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/bottom_sheet_Exit_Dialog_layout.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/bottom_sheet_dialog_layout.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/bottom_sheet_exit_dialog_layout.xml" value="0.2171875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/bottom_sheet_layout.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/dialog_progress.xml" value="0.2717391304347826" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/fragment_config.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/fragment_menu.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/fragment_menu2.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/header_i13_view.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/list_view_i11_dtl.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/list_view_i11_hdr.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/list_view_i13_query.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/list_view_i21_dtl.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/list_view_i22_dtl.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/list_view_i22_hdr.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/list_view_i25_query.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/list_view_i26_hdr.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/list_view_i27_dtl.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/list_view_i31_dtl.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/list_view_i31_hdr.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/list_view_i34_query.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/list_view_i36_query.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/list_view_i37_dtl.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/list_view_i38_dtl.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/list_view_i62_hdr.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/list_view_i62_popup.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/list_view_i62_popup_edit_qty.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/list_view_i71.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/list_view_i73.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/list_view_m12_query.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/list_view_m22_query.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/list_view_m31_hdr.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/list_view_s12_dtl.xml" value="0.2046875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/list_view_s14_dtl.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/list_view_s15_query.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/list_view_s16_dtl.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/list_view_s17_shipment_status.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/layout/menu_recycler_item.xml" value="0.2171875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/GMAX/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.2046875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

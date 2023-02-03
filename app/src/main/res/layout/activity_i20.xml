@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackGround">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            style="@style/Widget.MaterialComponents.Toolbar.Primary"
+            android:id="@+id/materialToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:elevation="0dp"
+            app:title="@string/I20_title"
+            app:titleCentered="true"
+            app:subtitle="@string/I20_sub_title"
+            app:subtitleCentered="true"
+            app:navigationIcon="@drawable/ic_baseline_menu_24"
+            app:navigationContentDescription="@string/menu" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!--
+    <TextView
+        android:id="@+id/lbl_view_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorHeadTitle"
+        android:gravity="center"
+        android:text="메뉴 > 재고이동"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="30dp" />
+    -->
+
+    <RelativeLayout
+        android:id="@+id/lbl_view_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/appBarLayout">
+
+        <RelativeLayout
+            android:id="@+id/box_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <LinearLayout
+                android:id="@+id/btn_box1"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_alignParentTop="true"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_stockyard"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:text="@string/I21_btn_title"
+                    android:textSize="@dimen/menu_btn_size"
+                    app:shapeAppearance="@style/ShapeAppearance.App.SmallComponent"
+                    app:elevation="@dimen/el_5dp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_warehouse"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:text="@string/I22_btn_title"
+                    android:textSize="@dimen/menu_btn_size"
+                    app:shapeAppearance="@style/ShapeAppearance.App.SmallComponent"
+                    app:elevation="@dimen/el_5dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_box2"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_below="@id/btn_box1"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_tracking"
+                    style="?attr/materialButtonOutlinedStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:text="@string/I23_btn_title"
+                    android:textSize="@dimen/menu_btn_size"
+                    app:shapeAppearance="@style/ShapeAppearance.App.SmallComponent"
+                    app:strokeWidth="@dimen/btn_stroke"
+                    app:elevation="@dimen/el_0dp"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_workplace"
+                    style="?attr/materialButtonOutlinedStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:text="@string/I24_btn_title"
+                    android:textSize="@dimen/menu_btn_size"
+                    app:shapeAppearance="@style/ShapeAppearance.App.SmallComponent"
+                    app:strokeWidth="@dimen/btn_stroke"
+                    app:elevation="@dimen/el_0dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_box3"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_below="@id/btn_box2"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_query"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:text="@string/I25_btn_title"
+                    android:textSize="@dimen/menu_btn_size"
+                    app:shapeAppearance="@style/ShapeAppearance.App.SmallComponent"
+                    app:elevation="@dimen/el_5dp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_move"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:text="@string/I26_btn_title"
+                    android:textSize="@dimen/menu_btn_size"
+                    app:shapeAppearance="@style/ShapeAppearance.App.SmallComponent"
+                    app:elevation="@dimen/el_5dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/box_box4"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                android:layout_below="@id/btn_box3"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_item_qty_move"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/I27_btn_title"
+                    android:textSize="@dimen/menu_btn_size"
+                    app:elevation="@dimen/el_5dp"
+                    app:shapeAppearance="@style/ShapeAppearance.App.SmallComponent" />
+
+            </LinearLayout>
+
+            <!--
+            <LinearLayout
+                android:id="@+id/box_view1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/btn_stockyard"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_btn_user"
+                    android:text="적치장 이동"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/btn_warehouse"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_btn_user"
+                    android:text="창고 이동"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="25dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/box_view2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/btn_tracking"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_btn_user_notend"
+                    android:text="tracking\n이동"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/btn_workplace"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_btn_user_notend"
+                    android:text="사업장 이동"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="25dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/box_view3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/btn_query"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_btn_user"
+                    android:text="재고이동\n현황조회"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/btn_move"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_btn_user"
+                    android:text="출고이동처리"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="25dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/box_view4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/btn_item_qty_move"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_btn_user"
+                    android:text="품목재고이동\n(함안)"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="25dp" />
+
+            </LinearLayout>
+            -->
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <!--
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/layout_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true">
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/btn_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="@string/extend_fab_menu"
+            app:icon="@drawable/ic_baseline_menu_24" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/btn_menu"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/bg_toggle"
+            android:gravity="center"
+            android:text="메뉴"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+    -->
+
+</RelativeLayout>

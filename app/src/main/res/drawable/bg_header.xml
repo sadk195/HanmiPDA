@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:bottom="1dp"
+        android:left="-2dp"
+        android:right="-2dp"
+        android:state_enabled="true"
+        android:top="-2dp">
+        <shape> <!--모양-->
+            <solid android:color="#ffffff" /> <!--모양-->
+            <corners android:radius="20dp" /> <!--모양-->
+            <stroke android:width="3dp"
+                android:color="@color/colorBlue" /> <!--테두리 설정-->
+        </shape>
+    </item>
+</selector>

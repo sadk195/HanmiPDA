@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackGround"
+    >
+    <!-- 타이틀-->
+
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/step1"
+        android:gravity="center"
+        android:text="품목 추가 팝업"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="18dp" />
+
+
+    <LinearLayout
+        android:id="@+id/box_view5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_title"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/bg_box"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/app_view13"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="7"
+                android:gravity="right|center"
+                android:text="적치장"
+                android:textColor="@color/colorBodyTitle"
+                android:textSize="15dp" />
+
+            <LinearLayout
+                android:id="@+id/app_view111"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="3"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img_barcode"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/barcode"
+                    />
+
+                <EditText
+                    android:id="@+id/Scan_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@drawable/bg_text_barcode"
+                    android:textColor="@color/colorBodyContent"
+                    android:gravity="center"
+                    android:hint="바코드 및 RFID 태그 스캔"
+                    android:textSize="12dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/app_view2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="7"
+                android:gravity="right|center"
+                android:text="품번"
+                android:textColor="@color/colorBodyTitle"
+                android:textSize="15dp" />
+
+            <LinearLayout
+                android:id="@+id/app_view222"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="3"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img_barcode2"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/barcode"
+                    />
+
+                <EditText
+                    android:id="@+id/Scan_item_cd"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@drawable/bg_text_barcode"
+                    android:textColor="@color/colorBodyContent"
+                    android:gravity="center"
+                    android:hint="바코드 및 RFID 태그 스캔"
+                    android:textSize="12dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_query"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/box_view5"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/bg_btn"
+        android:focusable="false"
+        android:gravity="center"
+        android:text="조회"
+        android:textAlignment="center"
+        android:textColor="@android:color/white" />
+
+    <LinearLayout
+        android:id="@+id/lbl_information"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/btn_query"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="□  품번    | 품명      | TRACKING_NO    | LOT_NO    | 순번  |     재고수량 | 적치장          "
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="8dp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listOrder_popup"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_below="@+id/lbl_information"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/bg_box"
+        android:divider="#00ffffff">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/btn_cancle"
+        android:layout_width="100dp"
+        android:layout_height="53dp"
+        android:layout_below="@+id/listOrder_popup"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_btn_popup"
+        android:gravity="center"
+        android:onClick="mOnClose"
+        android:padding="16dp"
+        android:text="종 료"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="100dp"
+        android:layout_height="53dp"
+        android:layout_below="@+id/listOrder_popup"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_btn_popup"
+        android:gravity="center"
+        android:onClick="mOnClose"
+        android:padding="16dp"
+        android:text="수량 조정"
+        android:textColor="#ffffff"
+        android:layout_alignParentRight="true"
+        android:textSize="15sp" />
+
+
+</RelativeLayout>
+

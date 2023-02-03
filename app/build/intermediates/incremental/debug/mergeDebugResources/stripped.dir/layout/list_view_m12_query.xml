@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:weightSum="20">
+
+        <!-- 검사요청번호 -->
+        <TextView
+            android:id="@+id/INSPECT_REQ_NO"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:text="InspectReqNo"
+            android:textColor="@color/colorHeadTitle"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <!-- 검사일자 -->
+        <TextView
+            android:id="@+id/MVMT_RCPT_DT"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:text="MvmtRcptDt"
+            android:textColor="@color/colorHeadTitle"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <!-- 검사수량 -->
+        <TextView
+            android:id="@+id/INSPECT_GOOD_QTY"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:gravity="right|center"
+            android:paddingLeft="10dp"
+            android:text="InspectGoodQty"
+            android:textColor="@color/colorHeadTitle"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <!-- 검사불량수량 -->
+        <TextView
+            android:id="@+id/INSPECT_BAD_QTY"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:gravity="right|center"
+            android:paddingLeft="10dp"
+            android:text="InspectBadQty"
+            android:textColor="@color/colorHeadTitle"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <!-- 공급처 -->
+        <TextView
+            android:id="@+id/BP_NM"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:gravity="left|center"
+            android:paddingLeft="10dp"
+            android:text="BpNm"
+            android:textColor="@color/colorHeadTitle"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

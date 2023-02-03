@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:weightSum="20">
+
+        <!-- 제조오더번호 -->
+        <TextView
+            android:id="@+id/prodt_order_no"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center|left"
+            android:text="ProdtOrderNo"
+            android:textColor="@color/colorHeadTitle"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <!-- 공정번호 -->
+        <TextView
+            android:id="@+id/opr_no"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:paddingLeft="10dp"
+            android:gravity="center|left"
+            android:text="OprNo"
+            android:textColor="@color/colorHeadTitle"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <!-- 품번 -->
+        <TextView
+            android:id="@+id/item_cd"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:text="ItemCd"
+            android:textColor="@color/colorHeadTitle"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <!-- 품목명 -->
+        <TextView
+            android:id="@+id/item_nm"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:text="ItemNm"
+            android:textColor="@color/colorHeadTitle"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:orientation="horizontal"
+        android:weightSum="20">
+
+        <!-- Tracking No -->
+        <TextView
+            android:id="@+id/tracking_no"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center|left"
+            android:text="Tracking No"
+            android:textColor="@color/colorHeadTitle"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <!-- Req Qty -->
+        <TextView
+            android:id="@+id/req_qty"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center|right"
+            android:paddingLeft="10dp"
+            android:text="ReqQty"
+            android:textColor="@color/colorHeadTitle"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <!-- Base Unit -->
+        <TextView
+            android:id="@+id/base_unit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:text="BaseUnit"
+            android:textColor="@color/colorHeadTitle"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <!-- 창고코드 -->
+        <TextView
+            android:id="@+id/sl_cd"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:text="SlCd"
+            android:textColor="@color/colorHeadTitle"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:orientation="horizontal"
+        android:weightSum="20">
+
+        <!-- 창고명 -->
+        <TextView
+            android:id="@+id/sl_nm"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center|left"
+            android:text="SlNm"
+            android:textColor="@color/colorHeadTitle"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <!-- 출고수량 -->
+        <TextView
+            android:id="@+id/issued_qty"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center|right"
+            android:paddingLeft="10dp"
+            android:text="IssuedQty"
+            android:textColor="@color/colorHeadTitle"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <!-- Remain Qty -->
+        <TextView
+            android:id="@+id/remain_qty"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:text="RemainQty"
+            android:textColor="@color/colorHeadTitle"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <!-- Req No -->
+        <TextView
+            android:id="@+id/req_no"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:text="ReqNo"
+            android:textColor="@color/colorHeadTitle"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:orientation="horizontal"
+        android:weightSum="20">
+
+        <!-- 출고방법 -->
+        <TextView
+            android:id="@+id/issue_mthd"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center|left"
+            android:text="IssueMthd"
+            android:textColor="@color/colorHeadTitle"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <!-- 예약상태 -->
+        <TextView
+            android:id="@+id/resv_status"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center|right"
+            android:paddingLeft="10dp"
+            android:text="ResvStatus"
+            android:textColor="@color/colorHeadTitle"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <!-- Out Qty -->
+        <TextView
+            android:id="@+id/out_qty"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:text="OutQty"
+            android:textColor="@color/colorHeadTitle"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <!-- Seq No -->
+        <TextView
+            android:id="@+id/seq_no"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:text="SeqNo"
+            android:textColor="@color/colorHeadTitle"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

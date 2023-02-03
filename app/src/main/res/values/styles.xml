@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Widget.App.Button.OutlinedButton.IconOnly" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="iconPadding">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+
+    <style name="Widget.App.Button.UnelevatedButton.IconOnly" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="iconPadding">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+
+    <!-- TODO : BottomSheet 관련 -->
+    <!-- ExitBottomSheet -->
+    <style name="MyThemeBottomSheetDialog">
+        <item name="android:elevation">0dp</item>
+        <item name="android:background">?attr/colorSurface</item>
+        <item name="titleTextColor">@color/material_on_surface_emphasis_high_type</item>
+        <item name="subtitleTextColor">@color/material_on_surface_emphasis_medium</item>
+        <!-- Note: this theme overlay will only work if the style is applied directly to a Toolbar. -->
+        <item name="android:theme">@style/ThemeOverlay.MaterialComponents.Toolbar.Surface</item>
+    </style>
+    <!-- ELSE BottomSheet -->
+    <style name="AppBottomSheetDialogTheme" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bottom_sheet_background</item>
+    </style>
+
+    <!-- TODO : Appbar, Toolbar 관련 -->
+    <!-- 축소 -->
+    <style name="TextAppearance.App.CollapsingToolbar.Expanded" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+    <!-- 확장 -->
+    <style name="TextAppearance.App.CollapsingToolbar.Collapsed" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <!-- 축소, 확장 상태의 Toolbar Title Size를 Headline6으로 설정하고, 색상은 colorOnPrimary를 따른다 -->
+    </style>
+
+    <style name="MyThemeOverlay_Toolbar" parent="ThemeOverlay.MaterialComponents.Toolbar.Primary">
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- 텍스트 / 아이콘을 그릴 때 접근하는 색상을 의미하며, 이 색상을 white로 적용했다. -->
+    </style>
+
+    <!-- TODO : 중메뉴 버튼 디자인 -->
+    <style name="ShapeAppearance.App.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">15dp</item>
+    </style>
+
+    <!-- TODO : DrawerLayout 범용 디자인 -->
+    <style name="MyDrawerStyle">
+        <item name="android:layout_width">350dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <style name="Widget.AppGJTheme.MyView" parent="">
+        <item name="android:background">@color/gray_400</item>
+        <item name="exampleColor">@color/light_blue_400</item>
+    </style>
+</resources>

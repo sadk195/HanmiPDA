@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackGround">
+
+    <RelativeLayout
+        android:id="@+id/layout_menu_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/app_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:background="@color/step1"
+            android:gravity="center"
+            android:text="출하 대기장 이동 > 출하요청 조회"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layout_menu_title">
+
+        <LinearLayout
+            android:id="@+id/app_view1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="right|center"
+                android:text="출하요청번호"
+                android:textColor="@color/colorBodyTitle"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/app_view1_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:weightSum="10">
+
+                <ImageView
+                    android:id="@+id/img_barcode"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                    android:src="@drawable/barcode" />
+
+                <EditText
+                    android:id="@+id/dn_req_no"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"
+                    android:background="@drawable/bg_text_ess"
+                    android:gravity="center"
+                    android:hint="바코드 및 RFID 태그 스캔"
+                    android:inputType="text"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lbl_information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/app_view1"
+            android:layout_marginTop="5dp"
+            android:weightSum="10">
+
+            <TextView
+                android:id="@+id/lbl_count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=" 품번  |  품명  |  잔량  | 출고량 |  적치장  | 수량"
+                android:textColor="@color/design_default_color_primary"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/lbl_information"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/listOrder"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="@drawable/bg_box"
+                android:padding="10dp"
+                android:scrollbars="none" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

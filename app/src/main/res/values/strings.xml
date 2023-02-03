@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">GMAX</string>
+    <!-- MainActivity -->
+    <string name="text_login">ID</string>
+    <string name="text_password">PASS</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- TODO : 대메뉴 Title 시작 -->
+    <string name="register_title">단말기 등록 요청</string>
+    <string name="config_title">서비스 정보</string>
+    <string name="M10_title">구매입고관리</string>
+    <string name="M10_sub_title">메뉴 > 구매입고관리</string>
+    <string name="M20_title">생산입고관리</string>
+    <string name="M20_sub_title">메뉴 > 생산입고관리</string>
+    <string name="M30_title">입하관리</string>
+    <string name="M30_sub_title">메뉴 > 입하관리</string>
+    <string name="M40_title">리즐링 원단 관리</string>
+    <string name="M40_sub_title">메뉴 > 리즐링 원단 관리</string>
+    <string name="I10_title">재고조회</string>
+    <string name="I10_sub_title">메뉴 > 재고조회</string>
+    <string name="I20_title">재고이동</string>
+    <string name="I20_sub_title">메뉴 > 재고이동</string>
+    <string name="I30_title">생산출고</string>
+    <string name="I30_sub_title">메뉴 > 생산출고</string>
+    <string name="I40_title">작업장반입</string>
+    <string name="I40_sub_title">메뉴 > 작업장반입</string>
+    <string name="I50_title">예외출고</string>
+    <string name="I50_sub_title">메뉴 > 예외출고</string>
+    <string name="I60_title">개발용출고</string>
+    <string name="I60_sub_title">메뉴 > 개발용출고</string>
+    <string name="I70_title">재고실사관리</string>
+    <string name="I70_sub_title">메뉴 > 재고실사관리</string>
+    <string name="S10_title">출하관리</string>
+    <string name="S10_sub_title">메뉴 > 출하관리</string>
+    <string name="P10_title">생산실적관리</string>
+    <string name="P10_sub_title">메뉴 > 생산실적관리</string>
+    <!-- 대메뉴 Title 끝 -->
+
+    <!-- TODO : 중메뉴 버튼 시작 -->
+    <!-- 구매입고관리(M10) -->
+    <string name="M11_btn_title">검사품입고\n등록</string>
+    <string name="M12_btn_title">검사품입고\n현황조회</string>
+    <string name="M13_btn_title">구매입고\n등록</string>
+    <string name="M14_btn_title">구매입고\n현황조회</string>
+    <!-- 생산입고관리(M20) -->
+    <string name="M21_btn_title">생산입고\n등록</string>
+    <string name="M22_btn_title">생산입고\n조회</string>
+    <!-- 리즐링원단관리(M40) -->
+    <string name="M41_btn_title">리즐링\n원단\n입고</string>
+    <string name="M42_btn_title">리즐링\n원단\n투입</string>
+    <string name="M43_btn_title">원단\n재고\n현황</string>
+    <string name="M44_btn_title">리즐링\n생산\n완료</string>
+
+    <!-- 재고조회(I10) -->
+    <string name="I11_btn_title">적치장\n재고조회</string>
+    <string name="I12_btn_title">창고재고조회</string>
+    <string name="I13_btn_title">품목재고조회\n(함안)</string>
+    <!-- 재고이동(I20) -->
+    <string name="I21_btn_title">적치장 이동</string>
+    <string name="I22_btn_title">창고 이동</string>
+    <string name="I23_btn_title">TRACKING\n이동</string>
+    <string name="I24_btn_title">사업장 이동</string>
+    <string name="I25_btn_title">재고이동\n현황조회</string>
+    <string name="I26_btn_title">출고이동처리</string>
+    <string name="I27_btn_title">품목재고이동\n(함안)</string>
+    <!-- 생산출고(I30) -->
+    <string name="I31_btn_title">생산출고 등록</string>
+    <string name="I32_btn_title">계획 외 출고\n(양산용)</string>
+    <string name="I33_btn_title">자재예약현황</string>
+    <string name="I34_btn_title">생산 출고현황</string>
+    <string name="I35_btn_title">생산출고\n대기장 이동\n(적치장이동)</string>
+    <string name="I36_btn_title">생산출고\n대기장 이동\n내역조회</string>
+    <string name="I37_btn_title">적치장 재고\n생산출고등록\n(생산출고등록)</string>
+    <string name="I38_btn_title">생산출고\n대기장 재고\n현황조회</string>
+    <!-- 작업장반입(I40) -->
+    <string name="I41_btn_title">적치장 반입\n(양품)</string>
+    <string name="I42_btn_title">작업장 반입\n(불량품)</string>
+    <string name="I43_btn_title">작업장 반입\n(기타)</string>
+    <string name="I44_btn_title">작업장\n반입현황</string>
+    <!-- 예외출고(I50) -->
+    <string name="I51_btn_title">재고폐기출고</string>
+    <string name="I52_btn_title">재고폐기현황</string>
+    <!-- 개발용출고(I60) -->
+    <string name="I61_btn_title">개발용\n자재출고</string>
+    <string name="I62_btn_title">개발용\n자재반입(양품)</string>
+    <string name="I63_btn_title">개발용\n자재반입(불량)</string>
+    <string name="I64_btn_title">개발용\n출고/반입현황</string>
+    <!-- 출하관리(S10) -->
+    <string name="S11_btn_title">출하요청현황</string>
+    <string name="S12_btn_title">출하등록</string>
+    <string name="S12_1_btn_title">포장등록</string>
+
+    <string name="S13_btn_title">출하현황</string>
+    <string name="S14_btn_title">출하대기장\n이동 등록\n(적치장 이동)</string>
+    <string name="S15_btn_title">출하대기장\n이동현황조회</string>
+    <string name="S16_btn_title">적치장재고\n출하등록\n(출하등록)</string>
+    <string name="S17_btn_title">출하대기장\n재고현황조회</string>
+    <!-- 재고실사관리(I70) -->
+    <string name="I71_btn_title">창고별\n실사등록</string>
+    <string name="I72_btn_title">재고실사표\n실사등록</string>
+    <string name="I73_btn_title">실사현황</string>
+    <string name="I74_btn_title">실사등록\n(통합)</string>
+    <!-- 생산실적관리(P10) -->
+    <string name="P11_btn_title">TRAVELER\n실적등록</string>
+    <string name="P12_btn_title">TRAVELER\n실적조회</string>
+    <string name="P13_btn_title">TRAVELER\n실적등록\n(함안)</string>
+    <string name="P14_btn_title">공정외주\n실적등록\n(함안)</string>
+    <!-- 입하관리(M30) -->
+    <string name="M31_btn_title">입하등록</string>
+    <string name="M32_btn_title">입하현황조회</string>
+    <!-- 중메뉴 버튼 끝 -->
+
+    <!-- TODO : 등록버튼 -->
+    <string name="fab_content_add">등록</string>
+
+    <!-- TODO : 바코드 EditText placehold -->
+    <string name="barcode_placeholder">바코드 및 RFID 태그 스캔</string>
+
+    <!-- TODO : Navigation Description -->
+    <string name="menu">메뉴</string>
+    <string name="title_activity_loading">activity_Loading</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

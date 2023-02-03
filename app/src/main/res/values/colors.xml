@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="error">#B00020</color>
+    <color name="primary">#1176df</color>
+
+    <!-- EMK Color -->
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorGray">#DDDDDD</color>
+    <color name="colorTitle">#444444</color>
+    <color name="colorBtnAccept">#3875D6</color>
+    <color name="colorHeadTitle">#0EB1C7</color>
+    <color name="colorBodyContent">#0EB1C7</color>
+    <color name="colorBodyTitle">#737373</color>
+    <color name="colorBtnApply">#0EB1C7</color>
+    <color name="colorBackGround">#E9F0F0</color>
+    <color name="colorLine">#D9DDDE</color>
+    <color name="colorBlue">#0EB1C7</color>
+    <color name="colorRed">#ED1C24</color>
+
+    <color name="colorFail">#CCD81B60</color>
+    <color name="colorBgWhite">#FFFFFF</color>
+    <color name="colorSuccess">#CC3875D6</color>
+    <color name="colorBlack">#FF000000</color>
+
+    <color name="step1">#A3DAFF</color>
+    <color name="step2">#1EC0FF</color>
+    <color name="step3">#0080FF</color>
+    <color name="step4">#03A6FF</color>
+
+    <color name="query">#3AC569</color>
+
+    <color name="dim100">#FF000000</color>
+    <color name="dim95">#F2000000</color>
+    <color name="dim90">#E6000000</color>
+    <color name="dim80">#CC000000</color>
+    <color name="dim75">#BF000000</color>
+    <color name="dim70">#B3000000</color>
+    <color name="dim60">#99000000</color>
+    <color name="dim50">#80000000</color>
+    <color name="dim40">#66000000</color>
+    <color name="dim30">#4D000000</color>
+    <color name="dim25">#40000000</color>
+    <color name="dim20">#33000000</color>
+    <color name="dim10">#1A000000</color>
+    <color name="dim0">#00000000</color>
+
+    <color name="transparent">#1A000000</color>
+
+    <color name="btn_before_click">#8A9AF8</color>
+    <color name="btn_after_click">#536DFE</color>
+
+    <color name="btn_green">#468847</color>
+    <color name="btn_green_bg">#DFF0D8</color>
+
+    <color name="colorLightBlue">#4675C2</color>
+    <color name="colorGreen">#3E8479</color>
+    <color name="colorOrange">#E67F5C</color>
+    <color name="colorLightRed">#D65550</color>
+
+    <color name="colorHotPink">#EF2482</color>
+    <color name="colorDarkBlue">#33379D</color>
+    <color name="colorGold">#F49D09</color>
+
+    <color name="cardview_dark_background">#FF424242</color>
+    <color name="cardview_light_background">#FFFFFFFF</color>
+    <color name="cardview_shadow_end_color">#03000000</color>
+    <color name="cardview_shadow_start_color">#37000000</color>
+
+    <color name="design_default_color_primary">#3F51B5</color>
+
+    <!-- 재현대리님 Design -->
+    <color name="JH_primaryColor">#81d4fa</color>
+    <color name="JH_primaryLightColor">#b6ffff</color>
+    <color name="JH_primaryDarkColor">#4ba3c7</color>
+    <color name="JH_secondaryColor">#84ffff</color>
+    <color name="JH_secondaryLightColor">#baffff</color>
+    <color name="JH_secondaryDarkColor">#4bcbcc</color>
+    <color name="JH_primaryTextColor">#000000</color>
+    <color name="JH_secondaryTextColor">#000000</color>
+    <!-- 재현대리님 Design -->
+
+    <!-- 요정님 Design -->
+    <color name="YJ_primaryColor">#8c9eff</color>
+    <color name="YJ_primaryLightColor">#c0cfff</color>
+    <color name="YJ_primaryDarkColor">#5870cb</color>
+    <color name="YJ_secondaryColor">#b0bec5</color>
+    <color name="YJ_secondaryLightColor">#e2f1f8</color>
+    <color name="YJ_secondaryDarkColor">#808e95</color>
+    <color name="YJ_primaryTextColor">#000000</color>
+    <color name="YJ_secondaryTextColor">#000000</color>
+    <!-- 요정님 Design -->
+
+    <!-- 박과장님 Design -->
+    <color name="GJ_primaryColor">#1e88e5</color>
+    <color name="GJ_primaryLightColor">#6ab7ff</color>
+    <color name="GJ_primaryDarkColor">#005cb2</color>
+    <color name="GJ_secondaryColor">#0d47a1</color>
+    <color name="GJ_secondaryLightColor">#5472d3</color>
+    <color name="GJ_secondaryDarkColor">#002171</color>
+    <color name="GJ_primaryTextColor">#000000</color>
+    <color name="GJ_secondaryTextColor">#ffffff</color>
+    <color name="light_blue_400">#FF29B6F6</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="gray_400">#FFBDBDBD</color>
+    <color name="gray_600">#FF757575</color>
+    <!-- 박과장님 Design -->
+
+</resources>

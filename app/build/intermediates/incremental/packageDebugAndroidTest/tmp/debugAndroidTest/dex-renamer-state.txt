@@ -1,0 +1,7 @@
+#Thu Feb 02 16:46:02 KST 2023
+base.1=E\:\\TGS\\company_dev\\gmax\\ANDROID\\GMAX_real\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\1\\classes.dex
+path.1=1/classes.dex
+base.0=E\:\\TGS\\company_dev\\gmax\\ANDROID\\GMAX_real\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=0/classes.dex

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackGround">
+    <!-- 타이틀-->
+
+    <RelativeLayout
+        android:id="@+id/layout_menu_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/app_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorHeadTitle"
+            android:gravity="center"
+            android:text="기타출고등록 >> 개발용 자재반입(양품)"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/layout_btn"
+        android:layout_below="@id/layout_menu_title">
+
+        <LinearLayout
+            android:id="@+id/box_view1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/app_view1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:gravity="right|center"
+                    android:text="출고일"
+                    android:textColor="@color/colorBodyTitle"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/app_view1_1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:layout_weight="7"
+                    android:paddingLeft="10dp">
+
+                    <EditText
+                        android:id="@+id/issue_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_text"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:inputType="date"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/app_view2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:gravity="right|center"
+                    android:text="창고"
+                    android:textColor="@color/colorBodyTitle"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/app_view2_1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:layout_weight="7"
+                    android:paddingLeft="10dp">
+
+                    <Spinner
+                        android:id="@+id/storage_location"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_text_ess"
+                        android:gravity="left|center"
+                        android:text=""
+                        android:textColor="@color/colorBodyContent"
+                        android:textSize="10dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/app_view3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:gravity="right|center"
+                    android:text="Cost Center"
+                    android:textColor="@color/colorBodyTitle"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/app_view3_1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:layout_weight="7"
+                    android:paddingLeft="10dp">
+
+                    <Spinner
+                        android:id="@+id/cost_center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_text_ess"
+                        android:gravity="left|center"
+                        android:text=""
+                        android:textColor="@color/colorBodyContent"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/app_view4"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:gravity="right|center"
+                    android:text="작업장"
+                    android:textColor="@color/colorBodyTitle"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/app_view4_1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:layout_weight="7"
+                    android:paddingLeft="10dp">
+
+                    <Spinner
+                        android:id="@+id/work_center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_text_ess"
+                        android:gravity="left|center"
+                        android:text=""
+                        android:textColor="@color/colorBodyContent"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/app_view5"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:gravity="right|center"
+                    android:text="비고"
+                    android:textColor="@color/colorBodyTitle"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/app_view5_1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:layout_weight="7"
+                    android:paddingLeft="10dp">
+
+                    <EditText
+                        android:id="@+id/txtDocumentText"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_text"
+                        android:gravity="left|center"
+                        android:inputType="text"
+                        android:text=""
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/lbl_center_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/box_view1">
+
+            <CheckBox
+                android:id="@+id/chk_see"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:gravity="center"
+                android:text="" />
+
+            <Button
+                android:id="@+id/btn_popup_remove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="50dp"
+                android:onClick="HDR_GridRemove"
+                android:text="삭제"
+                android:textSize="12dp"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/btn_popup_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:onClick="showPopup"
+                android:text="품목 참조"
+                android:textSize="12dp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/lbl_information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lbl_center_layout"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="□  품번   | 품명    | TRACKING_NO  | LOT_NO  | LOT 순번  |  재고수량 | 적치장      "
+                android:textColor="@color/design_default_color_primary"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listOrder"
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:layout_below="@+id/lbl_information"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="5dp"
+            android:background="@drawable/bg_box"
+            android:padding="10dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/bg_btn"
+            android:focusable="false"
+            android:gravity="center"
+            android:text="저장"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="18dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+

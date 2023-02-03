@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackGround">
+    <!-- 타이틀-->
+
+    <RelativeLayout
+        android:id="@+id/layout_menu_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/app_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/step2"
+            android:gravity="center"
+            android:text="출하등록 > 출하대기장 이동 > 상세"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/layout_btn"
+        android:layout_below="@id/layout_menu_title">
+
+        <LinearLayout
+            android:id="@+id/box_view1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout_menu_title"
+            android:layout_margin="5dp"
+            android:background="@drawable/bg_text"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/app_view1"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:orientation="horizontal"
+                android:weightSum="20">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:gravity="right|center"
+                    android:text="출하요청번호"
+                    android:textColor="@color/colorBodyTitle"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:id="@+id/dn_req_no"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="left|center"
+                        android:text=""
+                        android:textColor="@color/colorBodyContent"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/app_view2"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:orientation="horizontal"
+                android:weightSum="20">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:gravity="right|center"
+                    android:paddingLeft="10dp"
+                    android:text="창고 코드 / 명"
+                    android:textColor="@color/colorBodyTitle"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:paddingLeft="10dp"
+                    android:weightSum="15">
+
+                    <TextView
+                        android:id="@+id/sl_cd"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="6"
+                        android:gravity="left|center"
+                        android:paddingLeft="10dp"
+                        android:text=""
+                        android:textColor="@color/colorBodyContent"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="/"
+                        android:textColor="@color/colorBodyTitle"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/sl_nm"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="8"
+                        android:gravity="left|center"
+                        android:paddingLeft="10dp"
+                        android:text=""
+                        android:textColor="@color/colorBodyContent"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/app_view3"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:orientation="horizontal"
+                android:weightSum="20">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:gravity="right|center"
+                    android:text="품번 / 명"
+                    android:textColor="@color/colorBodyTitle"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:paddingLeft="10dp"
+                    android:weightSum="15">
+
+                    <TextView
+                        android:id="@+id/item_cd"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="6"
+                        android:gravity="left|center"
+                        android:paddingLeft="10dp"
+                        android:text=""
+                        android:textColor="@color/colorBodyContent"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="/"
+                        android:textColor="@color/colorBodyTitle"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/item_nm"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="8"
+                        android:ellipsize="end"
+                        android:gravity="left|center"
+                        android:maxLines="1"
+                        android:paddingLeft="10dp"
+                        android:text=""
+                        android:textColor="@color/colorBodyContent"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/app_view4"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:orientation="horizontal"
+                android:weightSum="20">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:gravity="right|center"
+                    android:text="T/K_NO"
+                    android:textColor="@color/colorBodyTitle"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:id="@+id/tracking_no"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="left|center"
+                        android:text=""
+                        android:textColor="@color/colorBodyContent"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/app_view5"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:orientation="horizontal"
+                android:weightSum="20">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:gravity="right|center"
+                    android:text="양품 수량"
+                    android:textColor="@color/colorBodyTitle"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:id="@+id/good_on_hand_qty"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:gravity="left|center"
+                        android:textColor="@color/colorBodyContent"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:gravity="right|center"
+                    android:text="요청량"
+                    android:textColor="@color/colorBodyTitle"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:id="@+id/req_qty"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="left|center"
+                        android:textColor="@color/colorBodyContent"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/app_view6"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:weightSum="20">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:gravity="right|center"
+                    android:text="남은 요청 \n수량"
+                    android:textColor="@color/colorBodyTitle"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:id="@+id/remain_req_qty"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="left|center"
+                        android:textColor="@color/colorBodyContent"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:gravity="right|center"
+                    android:paddingLeft="10dp"
+                    android:text=""
+                    android:textColor="@color/colorBodyTitle"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:id="@+id/req_qty2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="left|center"
+                        android:textColor="@color/colorBodyContent"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lbl_information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/box_view1"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="           Tracking     | LOT    |      양품   |    불량   |  적치장 "
+                android:textColor="@color/design_default_color_primary"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listOrder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/box_view2"
+            android:layout_below="@id/lbl_information"
+            android:layout_margin="5dp"
+            android:background="@drawable/bg_box"
+            android:padding="10dp" />
+
+        <LinearLayout
+            android:id="@+id/box_view2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="5dp"
+            android:background="@drawable/bg_text"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/app_view7"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:gravity="right|center"
+                    android:text="이동 일자"
+                    android:textColor="@color/colorBodyTitle"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7"
+                    android:paddingLeft="10dp">
+
+                    <EditText
+                        android:id="@+id/move_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:focusable="false"
+                        android:gravity="center"
+                        android:inputType="date"
+                        android:text=""
+                        android:textColor="@color/colorBodyContent"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/app_view8"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:gravity="right|center"
+                    android:text="이동할 적치장"
+                    android:textColor="@color/colorBodyTitle"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/app_view8_1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:id="@+id/txt_Scan_move_location"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="출하대기장"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/app_view10"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:gravity="right|center"
+                    android:text="이동할 수량 합계"
+                    android:textColor="@color/colorBodyTitle"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:id="@+id/grid_chk_qty_sum"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="@color/colorBodyContent"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/bg_toggle"
+            android:gravity="center"
+            android:text="위치이동 / 추가"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/bg_toggle"
+            android:gravity="center"
+            android:text="위치이동 / 종료"
+            android:textColor="@android:color/white"
+            android:textSize="18dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+

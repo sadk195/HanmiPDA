@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true">
+        <shape> <!--모양-->
+            <solid android:color="#0eb1c7"><!--모양-->
+
+            </solid>
+            <corners android:radius="14dp"><!--코너 라운드처리-->
+
+            </corners>
+            <stroke android:width="0.5dp"
+
+                android:color="#d9ddde">  <!--테두리 설정-->
+
+
+            </stroke>
+        </shape>
+    </item>
+</selector>

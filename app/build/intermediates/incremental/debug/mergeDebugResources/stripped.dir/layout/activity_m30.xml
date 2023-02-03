@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/background">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            style="@style/Widget.MaterialComponents.Toolbar.Primary"
+            android:id="@+id/materialToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:elevation="0dp"
+            app:title="@string/M30_title"
+            app:titleCentered="true"
+            app:subtitle="@string/M30_sub_title"
+            app:subtitleCentered="true"
+            app:navigationIcon="@drawable/ic_baseline_menu_24"
+            app:navigationContentDescription="@string/menu" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!--
+    <TextView
+        android:id="@+id/lbl_view_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorHeadTitle"
+        android:gravity="center"
+        android:text="메뉴 > 입하관리"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="30dp" />
+    -->
+
+    <RelativeLayout
+        android:id="@+id/layout_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/appBarLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_arrival_registration"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:text="@string/M31_btn_title"
+                    android:textSize="@dimen/menu_btn_size"
+                    app:shapeAppearance="@style/ShapeAppearance.App.SmallComponent"
+                    app:elevation="@dimen/el_5dp" />
+
+                <com.google.android.material.button.MaterialButton
+                    style="?attr/materialButtonOutlinedStyle"
+                    android:id="@+id/btn_arrival_query"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:text="@string/M32_btn_title"
+                    android:textSize="@dimen/menu_btn_size"
+                    app:shapeAppearance="@style/ShapeAppearance.App.SmallComponent"
+                    app:strokeWidth="@dimen/btn_stroke"
+                    app:elevation="@dimen/el_0dp" />
+
+            </LinearLayout>
+
+            <!--
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/btn_arrival_registration"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_btn_user"
+                    android:text="입하등록"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/btn_arrival_query"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_btn_user_notend"
+                    android:text="입하현황조회"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="25dp" />
+
+            </LinearLayout>
+            -->
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <!--
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/layout_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true">
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/btn_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="@string/extend_fab_menu"
+            app:icon="@drawable/ic_baseline_menu_24" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/btn_menu"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/bg_toggle"
+            android:gravity="center"
+            android:text="메뉴"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+    -->
+
+</RelativeLayout>
