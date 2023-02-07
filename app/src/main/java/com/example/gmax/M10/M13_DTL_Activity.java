@@ -360,7 +360,6 @@ public class M13_DTL_Activity extends BaseActivity {
         dbQuery_update_ISSUE_MTHD(dlv_no_data); //공장별 품목수불현황에서 자품목 자동출고로 강제 조정
 
         try {
-
             String CUD_FLAG = "C";
 
             //입고일자 세팅
@@ -371,7 +370,6 @@ public class M13_DTL_Activity extends BaseActivity {
 
 
             String Error = "";
-
             ArrayList<M13_DTL> SaveData = SetSaveData();
 
             for (M13_DTL savedtl : SaveData) {
@@ -418,7 +416,13 @@ public class M13_DTL_Activity extends BaseActivity {
         M13_DTL temp_dtl = new M13_DTL();
         temp_dtl.setITEM_CD("");
         ArrayList<M13_DTL> result = new ArrayList<>();
+
         try {
+            if( ListViewAdapter.getCount() == 1){
+                M13_DTL savedtl = (M13_DTL) ListViewAdapter.getItem(0);
+                result.add(savedtl);
+                return result;
+            }
 
             for (int i = 0; i < ListViewAdapter.getCount(); i++) {
                 M13_DTL savedtl = (M13_DTL) ListViewAdapter.getItem(i);
