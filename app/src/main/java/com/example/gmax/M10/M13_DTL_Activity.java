@@ -433,7 +433,7 @@ public class M13_DTL_Activity extends BaseActivity {
                 }
 
                 //이전항목과 현재항목이 같으면 qty더하기
-                if (temp_dtl.getITEM_CD().equals(savedtl.getITEM_CD())) {
+                if (temp_dtl.getSER_NO().equals(savedtl.getSER_NO())) {
 
                     double temp = Double.parseDouble(
                             temp_dtl.getDLV_QTY()) + Double.parseDouble(savedtl.getDLV_QTY()
@@ -559,13 +559,13 @@ public class M13_DTL_Activity extends BaseActivity {
                 plant_cd_parm ="1000";
 
                 System.out.println("po_no_parm:"+po_no_parm);
-                //System.out.println("po_seq_no_parm:"+po_seq_no_parm);
+                System.out.println("po_seq_no_parm:"+po_seq_no_parm);
                 System.out.println("lot_no_parm:"+lot_no_parm);
-                //System.out.println("pur_type_cd_parm:"+pur_type_cd_parm);
-                //System.out.println("prodt_order_no_parm:"+prodt_order_no_parm);
-                //System.out.println("opr_no_parm:"+opr_no_parm);
-                //System.out.println("dlv_no_parm:"+dlv_no_parm);
-                //System.out.println("ser_no_parm:"+ser_no_parm);
+                System.out.println("pur_type_cd_parm:"+pur_type_cd_parm);
+                System.out.println("prodt_order_no_parm:"+prodt_order_no_parm);
+                System.out.println("opr_no_parm:"+opr_no_parm);
+                System.out.println("dlv_no_parm:"+dlv_no_parm);
+                System.out.println("ser_no_parm:"+ser_no_parm);
                 System.out.println("mvmt_qty_parm:"+mvmt_qty_parm);
 
                 DBAccess dba = new DBAccess(TGSClass.ws_name_space, TGSClass.ws_url);
