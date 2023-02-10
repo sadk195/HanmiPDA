@@ -4,7 +4,7 @@
             "outputFile": "com.example.gmax.app-mergeDebugResources-26:/values-he/values-he.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\a1ef7c76a8d0224b49c3e7e827a08ab0\\transformed\\jetified-zxing-android-embedded-3.6.0\\res\\values-he\\values-he.xml",
+                    "source": "C:\\Users\\sadk1\\.gradle\\caches\\transforms-3\\a1ef7c76a8d0224b49c3e7e827a08ab0\\transformed\\jetified-zxing-android-embedded-3.6.0\\res\\values-he\\values-he.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

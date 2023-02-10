@@ -199,6 +199,9 @@ public class S12_DTL_Activity extends BaseActivity {
                             return;
                         }
                     }
+                    set_PackingViews("S");
+
+                    dbSave_Status();
                     return;
                 }
 

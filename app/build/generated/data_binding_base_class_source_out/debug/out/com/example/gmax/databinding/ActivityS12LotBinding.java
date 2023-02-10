@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
@@ -36,6 +37,9 @@ public final class ActivityS12LotBinding implements ViewBinding {
   public final Button btnLot;
 
   @NonNull
+  public final ImageView imgBarcode;
+
+  @NonNull
   public final EditText itemCd;
 
   @NonNull
@@ -59,16 +63,21 @@ public final class ActivityS12LotBinding implements ViewBinding {
   @NonNull
   public final ListView listLot;
 
+  @NonNull
+  public final EditText lotNo;
+
   private ActivityS12LotBinding(@NonNull RelativeLayout rootView, @NonNull TextView appTitle,
       @NonNull LinearLayout boxView, @NonNull Button btnEnd, @NonNull Button btnLot,
-      @NonNull EditText itemCd, @NonNull EditText itemNm, @NonNull RelativeLayout layoutBody,
-      @NonNull RelativeLayout layoutBtn, @NonNull RelativeLayout layoutMenuTitle,
-      @NonNull TextView lblCount, @NonNull LinearLayout lblSubTitle, @NonNull ListView listLot) {
+      @NonNull ImageView imgBarcode, @NonNull EditText itemCd, @NonNull EditText itemNm,
+      @NonNull RelativeLayout layoutBody, @NonNull RelativeLayout layoutBtn,
+      @NonNull RelativeLayout layoutMenuTitle, @NonNull TextView lblCount,
+      @NonNull LinearLayout lblSubTitle, @NonNull ListView listLot, @NonNull EditText lotNo) {
     this.rootView = rootView;
     this.appTitle = appTitle;
     this.boxView = boxView;
     this.btnEnd = btnEnd;
     this.btnLot = btnLot;
+    this.imgBarcode = imgBarcode;
     this.itemCd = itemCd;
     this.itemNm = itemNm;
     this.layoutBody = layoutBody;
@@ -77,6 +86,7 @@ public final class ActivityS12LotBinding implements ViewBinding {
     this.lblCount = lblCount;
     this.lblSubTitle = lblSubTitle;
     this.listLot = listLot;
+    this.lotNo = lotNo;
   }
 
   @Override
@@ -130,6 +140,12 @@ public final class ActivityS12LotBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.img_barcode;
+      ImageView imgBarcode = ViewBindings.findChildViewById(rootView, id);
+      if (imgBarcode == null) {
+        break missingId;
+      }
+
       id = R.id.item_cd;
       EditText itemCd = ViewBindings.findChildViewById(rootView, id);
       if (itemCd == null) {
@@ -178,8 +194,15 @@ public final class ActivityS12LotBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.lot_no;
+      EditText lotNo = ViewBindings.findChildViewById(rootView, id);
+      if (lotNo == null) {
+        break missingId;
+      }
+
       return new ActivityS12LotBinding((RelativeLayout) rootView, appTitle, boxView, btnEnd, btnLot,
-          itemCd, itemNm, layoutBody, layoutBtn, layoutMenuTitle, lblCount, lblSubTitle, listLot);
+          imgBarcode, itemCd, itemNm, layoutBody, layoutBtn, layoutMenuTitle, lblCount, lblSubTitle,
+          listLot, lotNo);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
