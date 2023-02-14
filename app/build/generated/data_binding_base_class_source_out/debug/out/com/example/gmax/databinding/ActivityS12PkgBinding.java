@@ -32,6 +32,9 @@ public final class ActivityS12PkgBinding implements ViewBinding {
   public final LinearLayout boxView;
 
   @NonNull
+  public final Button btnCustom;
+
+  @NonNull
   public final Button btnEnd;
 
   @NonNull
@@ -47,7 +50,7 @@ public final class ActivityS12PkgBinding implements ViewBinding {
   public final RelativeLayout layoutBody;
 
   @NonNull
-  public final RelativeLayout layoutBtn;
+  public final LinearLayout layoutBtn;
 
   @NonNull
   public final RelativeLayout layoutMenuTitle;
@@ -68,14 +71,16 @@ public final class ActivityS12PkgBinding implements ViewBinding {
   public final EditText reqNo;
 
   private ActivityS12PkgBinding(@NonNull RelativeLayout rootView, @NonNull TextView appTitle,
-      @NonNull LinearLayout boxView, @NonNull Button btnEnd, @NonNull Button btnLot,
-      @NonNull Spinner cartonNo, @NonNull ImageView imgBarcode, @NonNull RelativeLayout layoutBody,
-      @NonNull RelativeLayout layoutBtn, @NonNull RelativeLayout layoutMenuTitle,
-      @NonNull TextView lblCount, @NonNull LinearLayout lblSubTitle, @NonNull ListView listPacking,
-      @NonNull EditText lotNo, @NonNull EditText reqNo) {
+      @NonNull LinearLayout boxView, @NonNull Button btnCustom, @NonNull Button btnEnd,
+      @NonNull Button btnLot, @NonNull Spinner cartonNo, @NonNull ImageView imgBarcode,
+      @NonNull RelativeLayout layoutBody, @NonNull LinearLayout layoutBtn,
+      @NonNull RelativeLayout layoutMenuTitle, @NonNull TextView lblCount,
+      @NonNull LinearLayout lblSubTitle, @NonNull ListView listPacking, @NonNull EditText lotNo,
+      @NonNull EditText reqNo) {
     this.rootView = rootView;
     this.appTitle = appTitle;
     this.boxView = boxView;
+    this.btnCustom = btnCustom;
     this.btnEnd = btnEnd;
     this.btnLot = btnLot;
     this.cartonNo = cartonNo;
@@ -129,6 +134,12 @@ public final class ActivityS12PkgBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btn_custom;
+      Button btnCustom = ViewBindings.findChildViewById(rootView, id);
+      if (btnCustom == null) {
+        break missingId;
+      }
+
       id = R.id.btn_end;
       Button btnEnd = ViewBindings.findChildViewById(rootView, id);
       if (btnEnd == null) {
@@ -160,7 +171,7 @@ public final class ActivityS12PkgBinding implements ViewBinding {
       }
 
       id = R.id.layout_btn;
-      RelativeLayout layoutBtn = ViewBindings.findChildViewById(rootView, id);
+      LinearLayout layoutBtn = ViewBindings.findChildViewById(rootView, id);
       if (layoutBtn == null) {
         break missingId;
       }
@@ -201,9 +212,9 @@ public final class ActivityS12PkgBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityS12PkgBinding((RelativeLayout) rootView, appTitle, boxView, btnEnd, btnLot,
-          cartonNo, imgBarcode, layoutBody, layoutBtn, layoutMenuTitle, lblCount, lblSubTitle,
-          listPacking, lotNo, reqNo);
+      return new ActivityS12PkgBinding((RelativeLayout) rootView, appTitle, boxView, btnCustom,
+          btnEnd, btnLot, cartonNo, imgBarcode, layoutBody, layoutBtn, layoutMenuTitle, lblCount,
+          lblSubTitle, listPacking, lotNo, reqNo);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -56,10 +56,11 @@ public class S12_PKG_Activity extends BaseActivity {
     private String str_carton_no = "";
 
     //== View 선언(Button) ==//
-    private Button btn_lot,btn_end;
+    private Button btn_lot,btn_end,btn_custom;
 
     //== ActivityForResult 관련 변수 선언 ==//
     private final int S12_DTL_REQUEST_CODE = 0;
+    private final int S12_CUSTOM_REQUEST_CODE = 1;
 
     //== ListView Adapter 선언 ==//
     S12_PKG_ListViewAdapter ListViewAdapter; //데이터를 완전히 초기화 하는것이 아니라 수정처리 하기때문에 전역 선언
@@ -96,6 +97,7 @@ public class S12_PKG_Activity extends BaseActivity {
         carton_no   = (Spinner) findViewById(R.id.carton_no);
         listview    = (ListView) findViewById(R.id.listPacking);
 
+        btn_custom = (Button) findViewById(R.id.btn_custom);
         btn_lot     = (Button) findViewById(R.id.btn_lot);
         btn_end     = (Button) findViewById(R.id.btn_end);
 
@@ -169,6 +171,15 @@ public class S12_PKG_Activity extends BaseActivity {
                 return false;
             }
         });
+        btn_custom.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = TGSClass.ChangeView(getPackageName(), S12_CUSTOM_Activity.class);
+                intent.putExtra("REQ_NO", tx_req_no);
+                intent.putExtra("CARTON_NO",str_carton_no);
+                startActivityForResult(intent, 1);
+            }
+        });
 
     }
 
@@ -184,7 +195,7 @@ public class S12_PKG_Activity extends BaseActivity {
     //액티비티 시작,데이터 조회
     private void start() {
         //TGSClass.AlertMessage(getApplicationContext(), BP_CD.getOnItemSelectedListener().toString());
-        TGSClass.AlertMessage(getApplicationContext(), vPLANT_CD);
+        //TGSClass.AlertMessage(getApplicationContext(), vPLANT_CD);
         dbQuery(req_no.getText().toString(), str_carton_no);
 
         if (!sJson.equals("")) {
@@ -220,9 +231,9 @@ public class S12_PKG_Activity extends BaseActivity {
                 ListViewAdapter.notifyDataSetChanged();
 
             } catch (JSONException ex) {
-                TGSClass.AlertMessage(this, ex.getMessage());
+                TGSClass.AlertMessage(this, ex.getMessage(),5000);
             } catch (Exception e1) {
-                TGSClass.AlertMessage(this, e1.getMessage());
+                TGSClass.AlertMessage(this, e1.getMessage(),5000);
             }
         }
     }
@@ -292,7 +303,7 @@ public class S12_PKG_Activity extends BaseActivity {
                     System.out.println(ex.getMessage());
                     //TGSClass.AlertMessage(this, ex.getMessage());
                 } catch (Exception e1) {
-                    TGSClass.AlertMessage(this, e1.getMessage());
+                    TGSClass.AlertMessage(this, e1.getMessage(),5000);
                 }
             }
         } catch (InterruptedException ex) {
@@ -357,6 +368,7 @@ public class S12_PKG_Activity extends BaseActivity {
                 sql += "@USER_ID ='" + vUSER_ID + "'";
                 sql += ";";
 
+                System.out.println("combo sql:"+sql);
                 DBAccess dba = new DBAccess(TGSClass.ws_name_space, TGSClass.ws_url);
 
                 ArrayList<PropertyInfo> pParms = new ArrayList<>();
@@ -381,6 +393,7 @@ public class S12_PKG_Activity extends BaseActivity {
 
         try {
             JSONArray ja = new JSONArray(sJsonCombo);
+            System.out.println("sJsonCombo:"+sJsonCombo);
 
             final ArrayList<GetComboData> lstItem = new ArrayList<>();
 
@@ -396,7 +409,9 @@ public class S12_PKG_Activity extends BaseActivity {
             lstItem.add(item);
 
             for (int i = 0; i < ja.length(); i++) {
+
                 CartonCount++;
+
                 JSONObject jObject = ja.getJSONObject(i);
 
                 //final String vJOB_CD = jObject.getString("JOB_CD");
@@ -438,6 +453,9 @@ public class S12_PKG_Activity extends BaseActivity {
                     carton_no.setSelection(CartonCount);
                     return;
                 }
+                else{
+                    carton_no.setSelection(selected_no);
+                }
             }
 
             //최초1회만 동작
@@ -455,7 +473,8 @@ public class S12_PKG_Activity extends BaseActivity {
                 first = false;
                 return;
             }
-            carton_no.setSelection(selected_no);
+
+            carton_no.setSelection(0);
 
         } catch (JSONException ex) {
             TGSClass.AlertMessage(getApplicationContext(), ex.getMessage());
@@ -469,7 +488,19 @@ public class S12_PKG_Activity extends BaseActivity {
         super.onActivityResult(requestCode, resultCode, data);
 
         if (requestCode == S12_DTL_REQUEST_CODE){
-            start();
+
+        }
+        switch (requestCode){
+            case S12_DTL_REQUEST_CODE:
+                dbQuery_getComboData(false);
+                start();
+                break;
+            case S12_CUSTOM_REQUEST_CODE:
+                //str_carton_no = data.getStringExtra("CONT_NO");
+                selected_no =0;
+                dbQuery_getComboData(true);
+                start();
+                break;
         }
     }
 }

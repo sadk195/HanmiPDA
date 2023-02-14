@@ -184,6 +184,8 @@ public class S12_DTL_Activity extends BaseActivity {
 
             }
         });
+
+
         //출고처리 버튼
         btn_save.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -199,6 +201,9 @@ public class S12_DTL_Activity extends BaseActivity {
                             return;
                         }
                     }
+                    set_PackingViews("S");
+
+                    dbSave_Status();
                     return;
                 }
 

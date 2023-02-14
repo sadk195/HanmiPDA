@@ -19,6 +19,10 @@ public class S12_LOT_ListViewAdapter extends BaseAdapter {
 
     }
 
+
+    public Object getItems() {
+        return listViewItem;
+    }
     @Override
     // Adapter에 사용되는 데이터의 개수를 리턴. : 필수 구현
     public int getCount() {

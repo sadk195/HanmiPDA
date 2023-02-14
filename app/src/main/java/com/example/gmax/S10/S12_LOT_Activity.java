@@ -1,6 +1,7 @@
 package com.example.gmax.S10;
 
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
@@ -27,10 +28,10 @@ public class S12_LOT_Activity extends BaseActivity {
 
     //== Intent에서 받을 변수 선언 ==//
     private String vMenuID, vMenuNm, vMenuRemark, vStartCommand;
-    private String tx_req_no;
+    private String tx_req_no,tx_lot_no="";
 
     //== View 선언(EditText) ==//
-    private EditText item_cd, item_nm;
+    private EditText item_cd, item_nm,lot_no;
 
     //== View 선언(ListView) ==//
     private ListView listview;
@@ -44,6 +45,7 @@ public class S12_LOT_Activity extends BaseActivity {
     //== View 선언(Button) ==//
     private Button btn_lot,btn_end;
 
+    private S12_LOT_ListViewAdapter ListViewAdapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -73,12 +75,15 @@ public class S12_LOT_Activity extends BaseActivity {
         item_cd         = (EditText) findViewById(R.id.item_cd);
         item_nm         = (EditText) findViewById(R.id.item_nm);
         listview        = (ListView) findViewById(R.id.listLot);
+        lot_no          = (EditText) findViewById(R.id.lot_no);
 
         item_cd.setText(getIntent().getStringExtra("ITEM_CD"));
         item_nm.setText(getIntent().getStringExtra("ITEM_NM"));
 
         btn_lot     = (Button) findViewById(R.id.btn_lot);
         btn_end     = (Button) findViewById(R.id.btn_end);
+
+        S12_LOT_ListViewAdapter ListViewAdapter = new S12_LOT_ListViewAdapter();
 
     }
 
@@ -89,7 +94,7 @@ public class S12_LOT_Activity extends BaseActivity {
                 if(selected_Lot== null){
                     return;
                 }
-                dbDelete();
+                dbDelete(selected_Lot);
             }
         });
         btn_end.setOnClickListener(new View.OnClickListener(){
@@ -97,7 +102,40 @@ public class S12_LOT_Activity extends BaseActivity {
                 finish();
             }
         });
+        lot_no.setOnKeyListener(new View.OnKeyListener() {
 
+            @Override
+            public boolean onKey(View v, int keyCode, KeyEvent event) {
+                if ((event.getAction() == KeyEvent.ACTION_DOWN) && keyCode == KeyEvent.KEYCODE_ENTER) {
+
+                    String temp=lot_no.getText().toString().replaceFirst(tx_lot_no,"");
+                    lot_no.setText(temp);
+                    tx_lot_no=lot_no.getText().toString();
+
+
+                    for(S12_LOT list : (ArrayList<S12_LOT>) ListViewAdapter.getItems()){
+                        if(list.LOT_NO.equals(tx_lot_no)){
+                            dbDelete(list);
+                            break;
+                        }
+                    }
+
+                    lot_no.requestFocus();
+                    start();
+                    return true;
+                }
+                return false;
+            }
+        });
+        listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView parent, View v, int position, long id) {
+
+                S12_LOT vItem = (S12_LOT) parent.getItemAtPosition(position);
+                selected_Lot = vItem;
+
+            }
+        });
 
     }
 
@@ -116,7 +154,7 @@ public class S12_LOT_Activity extends BaseActivity {
                 // 빈 데이터 리스트 생성.
                 //final ArrayList<String> items = new ArrayList<String>();
 
-                S12_LOT_ListViewAdapter ListViewAdapter = new S12_LOT_ListViewAdapter();
+                ListViewAdapter = new S12_LOT_ListViewAdapter();
 
                 for (int idx = 0; idx < ja.length(); idx++) {
                     JSONObject jObject = ja.getJSONObject(idx);
@@ -137,14 +175,7 @@ public class S12_LOT_Activity extends BaseActivity {
 
                 listview.setAdapter(ListViewAdapter);
 
-                listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-                    @Override
-                    public void onItemClick(AdapterView parent, View v, int position, long id) {
 
-                        S12_LOT vItem = (S12_LOT) parent.getItemAtPosition(position);
-                        selected_Lot = vItem;
-                    }
-                });
             } catch (JSONException ex) {
                 TGSClass.AlertMessage(this, ex.getMessage());
             } catch (Exception e1) {
@@ -190,19 +221,20 @@ public class S12_LOT_Activity extends BaseActivity {
     }
 
     //LOT번호 스캔하여 데이터 저장
-    private void dbDelete() {
+    private void dbDelete(S12_LOT delLot) {
         ////////////////////////////// 웹 서비스 호출 시 쓰레드 사용 ////////////////////////////////////////////////////////
         Thread wkThd_dbQuery = new Thread() {
             public void run() {
-                String sql = " EXEC DBO.XUSP_MES_S2002PA2_SET_LOT ";
+                String sql = " EXEC DBO.XUSP_MES_S2002PA2_DEL_LOT ";
                 sql += " @CUD_CHAR = 'D',";
-                sql += " @PACKING_NO = '" + selected_Lot.PACKING_NO + "',";
-                sql += " @DN_REQ_NO = '" + selected_Lot.DN_REQ_NO + "',";
-                sql += " @CONT_NO = '" + selected_Lot.CONT_NO + "',";
-                sql += " @LOT_NO = '" + selected_Lot.LOT_NO + "',";
+                sql += " @PACKING_NO = '" + delLot.PACKING_NO + "',";
+                sql += " @DN_REQ_NO = '" + delLot.DN_REQ_NO + "',";
+                sql += " @CONT_NO = '" + delLot.CONT_NO + "',";
+                sql += " @LOT_NO = '" + delLot.LOT_NO + "',";
                 sql += " @USER_ID = '" + vUSER_ID + "'";
                 sql += ";";
 
+                System.out.println("sql:" + sql);
                 DBAccess dba = new DBAccess(TGSClass.ws_name_space, TGSClass.ws_url);
 
                 ArrayList<PropertyInfo> pParms = new ArrayList<>();
@@ -221,70 +253,12 @@ public class S12_LOT_Activity extends BaseActivity {
         try {
             wkThd_dbQuery.join();  //workingThread가 종료될때까지 Main 쓰레드를 정지함.
             start();
-            //if (!sJson.equals("")) {
-            try {
 
-
-                /*listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-                    @Override
-                    public void onItemClick(AdapterView parent, View v, int position, long id) {
-
-                        S12_PKG vItem = (S12_PKG) parent.getItemAtPosition(position);
-
-                        //Toast.makeText(P_OEM11_Activity.this ,vSelectItem,Toast.LENGTH_LONG).show();
-
-                        Intent intent = TGSClass.ChangeView(getPackageName(), S12_DTL_Activity.class);
-                        intent.putExtra("HDR", vItem);
-                        startActivityForResult(intent, 0);
-                    }
-                });
-                /*
-                TGSClass.AlertMessage(getApplicationContext(), ja.length() + " 건 조회되었습니다.");
-
-                String vCountText = String.valueOf(ja.length()) + " 건 / " + selectStartDate.getText().toString();
-                slbl_count.setText(vCountText);
-                 */
-
-            } catch (Exception e1) {
-                TGSClass.AlertMessage(this, e1.getMessage());
+            if (!sJson.equals("")) {
+                TGSClass.AlertMessage(getApplicationContext(), "요청하신 LOT내역이 삭제되었습니다.");
             }
-
-
         }catch (InterruptedException ex) {
 
         }
-
-
-    /* @Override
-    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-
-       if (resultCode == RESULT_OK) {
-            switch (requestCode) {
-                case S12_DTL_REQUEST_CODE:
-                    String sign = data.getStringExtra("SIGN");
-                    if (sign.equals("EXIT")) {
-                        Toast.makeText(getApplicationContext(), "저장 되었습니다.", Toast.LENGTH_SHORT).show();
-                        finish();
-                    } else if (sign.equals("ADD")) {
-                        Toast.makeText(getApplicationContext(), "추가 되었습니다.", Toast.LENGTH_SHORT).show();
-                        start();
-                    }
-                    break;
-                default:
-                    break;
-            }
-        } else if (resultCode == RESULT_CANCELED) {
-            switch (requestCode) {
-                case S12_DTL_REQUEST_CODE:
-                    // Toast.makeText(getApplicationContext(), "취소", Toast.LENGTH_SHORT).show();
-                    break;
-                default:
-                    break;
-            }
-        }
-    }
-
-     */
     }
 }

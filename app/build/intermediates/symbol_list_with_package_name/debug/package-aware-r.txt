@@ -3276,6 +3276,7 @@ layout activity_register
 layout activity_s10
 layout activity_s11_dtl
 layout activity_s11_query
+layout activity_s12_custom
 layout activity_s12_dtl
 layout activity_s12_hdr
 layout activity_s12_lot
@@ -3358,6 +3359,7 @@ layout list_view_m43_query
 layout list_view_m44_dtl
 layout list_view_s11_dtl
 layout list_view_s11_query
+layout list_view_s12_custom
 layout list_view_s12_dtl
 layout list_view_s12_dtl_pkg
 layout list_view_s12_hdr

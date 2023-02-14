@@ -209,7 +209,7 @@
 
 
     </RelativeLayout>
-    <RelativeLayout
+    <LinearLayout
         android:id="@+id/layout_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -217,35 +217,54 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
-        android:layout_marginBottom="10dp">
+        android:layout_marginBottom="10dp"
+        android:weightSum="9">
 
         <Button
-            android:id="@+id/btn_lot"
-            android:layout_width="150dp"
+            android:id="@+id/btn_custom"
+            android:layout_width="0dp"
             android:layout_height="50dp"
-            android:layout_alignParentRight="true"
-            android:layout_marginRight="160dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/bg_btn"
+            android:layout_weight="3"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:focusable="false"
+            android:gravity="center"
+            android:text="수기입력"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="17dp" />
+        <Button
+            android:id="@+id/btn_lot"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
             android:background="@drawable/bg_btn"
             android:focusable="false"
             android:gravity="center"
+            android:layout_weight="3"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
             android:text="LOT 내역"
             android:textAlignment="center"
             android:textColor="@android:color/white"
-            android:textSize="18dp" />
+            android:textSize="17dp" />
 
         <Button
             android:id="@+id/btn_end"
-            android:layout_width="150dp"
+            android:layout_width="0dp"
             android:layout_height="50dp"
-            android:layout_alignParentRight="true"
             android:background="@drawable/bg_btn_end"
             android:focusable="false"
             android:gravity="center"
+            android:layout_weight="3"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
             android:text="닫기"
             android:textAlignment="center"
             android:textColor="@android:color/white"
-            android:textSize="18dp" />
+            android:textSize="17dp" />
 
-    </RelativeLayout>
+    </LinearLayout>
 
 </RelativeLayout>

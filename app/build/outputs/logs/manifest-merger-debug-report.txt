@@ -11,10 +11,10 @@ INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidMani
 	android:name
 		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:34:13-62
 manifest
-ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:1-382:12
-INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:1-382:12
-INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:1-382:12
-INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:1-382:12
+ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:1-387:12
+INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:1-387:12
+INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:1-387:12
+INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:1-387:12
 MERGED from [androidx.databinding:viewbinding:7.4.0] C:\Users\User\.gradle\caches\transforms-3\243e6c3ccd65b7e3bcdd1aee146f497f\transformed\jetified-viewbinding-7.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.github.Spikeysanju:MotionToast:1.4] C:\Users\User\.gradle\caches\transforms-3\ce0c0c304cfbce431c0fe7ad57eb240e\transformed\jetified-MotionToast-1.4\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.navigation:navigation-ui:2.3.1] C:\Users\User\.gradle\caches\transforms-3\7da93382ce32cec482172a8f6add38d3\transformed\navigation-ui-2.3.1\AndroidManifest.xml:17:1-24:12
@@ -65,20 +65,20 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\User\.gradle\caches\transforms-3\40d3d7c3b32b2b3f996b647420cd5534\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\User\.gradle\caches\transforms-3\3150cf7c9b77e480aa0237667e8a6f0a\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\User\.gradle\caches\transforms-3\90a8d6539372e2595f4591c28dd49e4b\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:1-382:12
-INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:1-382:12
-INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:1-382:12
+INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:1-387:12
+INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:1-387:12
+INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:1-387:12
 	package
 		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:3:5-31
 		INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml
 		INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:1-382:12
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:1-387:12
 		INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:1-382:12
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:1-387:12
 		INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:11-69
@@ -113,7 +113,7 @@ ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifes
 	android:name
 		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:11:22-80
 application
-ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:13:5-380:19
+ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:13:5-385:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\User\.gradle\caches\transforms-3\918230bc518fbda57a95961fb740af16\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\User\.gradle\caches\transforms-3\918230bc518fbda57a95961fb740af16\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\User\.gradle\caches\transforms-3\2bd8ef232285a4f46ef0691379af4cda\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
@@ -656,182 +656,192 @@ ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifes
 		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:290:13-37
 	android:name
 		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:289:13-49
-activity#com.example.gmax.S10.S13_QUERY_Activity
-ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:292:9-295:52
+activity#com.example.gmax.S10.S12_CUSTOM_Activity
+ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:292:9-296:63
 	android:screenOrientation
 		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:295:13-49
+	android:windowSoftInputMode
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:296:13-60
 	android:exported
 		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:294:13-37
 	android:name
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:293:13-51
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:293:13-52
+activity#com.example.gmax.S10.S13_QUERY_Activity
+ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:297:9-300:52
+	android:screenOrientation
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:300:13-49
+	android:exported
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:299:13-37
+	android:name
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:298:13-51
 activity#com.example.gmax.S10.S14_HDR_Activity
-ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:296:9-299:52
+ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:301:9-304:52
 	android:screenOrientation
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:299:13-49
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:304:13-49
 	android:exported
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:298:13-37
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:303:13-37
 	android:name
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:297:13-49
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:302:13-49
 activity#com.example.gmax.S10.S14_DTL_Activity
-ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:300:9-303:52
+ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:305:9-308:52
 	android:screenOrientation
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:303:13-49
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:308:13-49
 	android:exported
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:302:13-37
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:307:13-37
 	android:name
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:301:13-49
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:306:13-49
 activity#com.example.gmax.S10.S15_QUERY_Activity
-ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:304:9-307:52
+ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:309:9-312:52
 	android:screenOrientation
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:307:13-49
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:312:13-49
 	android:exported
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:306:13-37
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:311:13-37
 	android:name
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:305:13-51
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:310:13-51
 activity#com.example.gmax.S10.S16_HDR_Activity
-ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:308:9-311:52
+ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:313:9-316:52
 	android:screenOrientation
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:311:13-49
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:316:13-49
 	android:exported
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:310:13-37
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:315:13-37
 	android:name
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:309:13-49
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:314:13-49
 activity#com.example.gmax.S10.S16_DTL_Activity
-ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:312:9-315:52
+ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:317:9-320:52
 	android:screenOrientation
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:315:13-49
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:320:13-49
 	android:exported
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:314:13-37
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:319:13-37
 	android:name
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:313:13-49
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:318:13-49
 activity#com.example.gmax.S10.S17_HDR_Activity
-ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:316:9-319:52
+ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:321:9-324:52
 	android:screenOrientation
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:319:13-49
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:324:13-49
 	android:exported
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:318:13-37
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:323:13-37
 	android:name
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:317:13-49
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:322:13-49
 activity#com.example.gmax.I70.I70_Activity
-ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:320:9-323:52
+ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:325:9-328:52
 	android:screenOrientation
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:323:13-49
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:328:13-49
 	android:exported
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:322:13-37
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:327:13-37
 	android:name
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:321:13-45
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:326:13-45
 activity#com.example.gmax.I70.I71_Activity
-ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:324:9-327:52
+ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:329:9-332:52
 	android:screenOrientation
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:327:13-49
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:332:13-49
 	android:exported
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:326:13-37
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:331:13-37
 	android:name
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:325:13-45
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:330:13-45
 activity#com.example.gmax.I70.I72_Activity
-ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:328:9-331:52
+ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:333:9-336:52
 	android:screenOrientation
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:331:13-49
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:336:13-49
 	android:exported
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:330:13-37
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:335:13-37
 	android:name
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:329:13-45
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:334:13-45
 activity#com.example.gmax.I70.I73_Activity
-ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:332:9-335:52
+ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:337:9-340:52
 	android:screenOrientation
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:335:13-49
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:340:13-49
 	android:exported
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:334:13-37
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:339:13-37
 	android:name
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:333:13-45
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:338:13-45
 activity#com.example.gmax.I70.I74_Activity
-ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:336:9-339:52
+ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:341:9-344:52
 	android:screenOrientation
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:339:13-49
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:344:13-49
 	android:exported
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:338:13-37
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:343:13-37
 	android:name
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:337:13-45
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:342:13-45
 activity#com.example.gmax.I70.I75_Activity
-ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:340:9-343:52
+ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:345:9-348:52
 	android:screenOrientation
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:343:13-49
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:348:13-49
 	android:exported
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:342:13-37
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:347:13-37
 	android:name
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:341:13-45
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:346:13-45
 activity#com.example.gmax.I70.I76_Activity
-ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:344:9-347:52
+ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:349:9-352:52
 	android:screenOrientation
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:347:13-49
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:352:13-49
 	android:exported
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:346:13-37
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:351:13-37
 	android:name
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:345:13-45
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:350:13-45
 activity#com.example.gmax.I70.I77_Activity
-ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:348:9-351:52
+ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:353:9-356:52
 	android:screenOrientation
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:351:13-49
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:356:13-49
 	android:exported
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:350:13-37
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:355:13-37
 	android:name
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:349:13-45
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:354:13-45
 activity#com.example.gmax.I70.I78_Activity
-ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:352:9-355:52
+ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:357:9-360:52
 	android:screenOrientation
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:355:13-49
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:360:13-49
 	android:exported
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:354:13-37
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:359:13-37
 	android:name
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:353:13-45
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:358:13-45
 activity#com.example.gmax.I70.I79_Activity
-ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:356:9-359:52
+ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:361:9-364:52
 	android:screenOrientation
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:359:13-49
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:364:13-49
 	android:exported
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:358:13-37
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:363:13-37
 	android:name
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:357:13-45
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:362:13-45
 activity#com.example.gmax.P10.P10_Activity
-ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:360:9-363:52
+ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:365:9-368:52
 	android:screenOrientation
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:363:13-49
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:368:13-49
 	android:exported
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:362:13-37
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:367:13-37
 	android:name
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:361:13-45
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:366:13-45
 activity#com.example.gmax.P10.P14_QUERY_Activity
-ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:364:9-367:52
+ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:369:9-372:52
 	android:screenOrientation
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:367:13-49
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:372:13-49
 	android:exported
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:366:13-37
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:371:13-37
 	android:name
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:365:13-51
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:370:13-51
 activity#com.example.gmax.P10.P14_SAVE_Activity
-ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:368:9-371:52
+ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:373:9-376:52
 	android:screenOrientation
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:371:13-49
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:376:13-49
 	android:exported
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:370:13-37
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:375:13-37
 	android:name
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:369:13-50
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:374:13-50
 activity#com.example.gmax.M30.M30_Activity
-ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:372:9-375:52
+ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:377:9-380:52
 	android:screenOrientation
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:375:13-49
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:380:13-49
 	android:exported
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:374:13-37
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:379:13-37
 	android:name
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:373:13-45
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:378:13-45
 activity#com.example.gmax.M30.M31_HDR_Activity
-ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:376:9-379:52
+ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:381:9-384:52
 	android:screenOrientation
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:379:13-49
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:384:13-49
 	android:exported
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:378:13-37
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:383:13-37
 	android:name
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:377:13-49
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:382:13-49
 uses-sdk
 INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml
