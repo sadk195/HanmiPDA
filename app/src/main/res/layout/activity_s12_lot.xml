@@ -17,7 +17,7 @@
             android:layout_height="match_parent"
             android:background="@color/step4"
             android:gravity="center"
-            android:text="포장별 LOT 내역"
+            android:text="출하등록 > 포장실적 > LOT 내역"
             android:textAlignment="center"
             android:textColor="@android:color/white"
             android:textSize="20dp" />

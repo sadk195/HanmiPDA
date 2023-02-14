@@ -17,7 +17,7 @@
             android:layout_height="match_parent"
             android:background="@color/step1"
             android:gravity="center"
-            android:text="출하관리 > 출하등록"
+            android:text="출하관리 > 출하내역"
             android:textAlignment="center"
             android:textColor="@android:color/white"
             android:textSize="20dp" />
