@@ -72,7 +72,7 @@
 38-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\User\.gradle\caches\transforms-3\a1ef7c76a8d0224b49c3e7e827a08ab0\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:44:9-33
 39
 40    <application
-40-->E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:13:5-385:19
+40-->E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:13:5-390:19
 41        android:name="com.example.gmax.MySession"
 41-->E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:14:9-34
 42        android:allowBackup="true"
@@ -815,19 +815,29 @@
 415            android:screenOrientation="portrait" />
 415-->E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:384:13-49
 416        <activity
-416-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\User\.gradle\caches\transforms-3\a1ef7c76a8d0224b49c3e7e827a08ab0\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:47:9-53:63
-417            android:name="com.journeyapps.barcodescanner.CaptureActivity"
-417-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\User\.gradle\caches\transforms-3\a1ef7c76a8d0224b49c3e7e827a08ab0\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:48:13-74
-418            android:clearTaskOnLaunch="true"
-418-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\User\.gradle\caches\transforms-3\a1ef7c76a8d0224b49c3e7e827a08ab0\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:49:13-45
-419            android:screenOrientation="sensorLandscape"
-419-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\User\.gradle\caches\transforms-3\a1ef7c76a8d0224b49c3e7e827a08ab0\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:50:13-56
-420            android:stateNotNeeded="true"
-420-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\User\.gradle\caches\transforms-3\a1ef7c76a8d0224b49c3e7e827a08ab0\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:51:13-42
-421            android:theme="@style/zxing_CaptureTheme"
-421-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\User\.gradle\caches\transforms-3\a1ef7c76a8d0224b49c3e7e827a08ab0\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:52:13-54
-422            android:windowSoftInputMode="stateAlwaysHidden" />
-422-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\User\.gradle\caches\transforms-3\a1ef7c76a8d0224b49c3e7e827a08ab0\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:53:13-60
-423    </application>
-424
-425</manifest>
+416-->E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:385:9-389:63
+417            android:name="com.example.gmax.S10.S12_LOT_SEARCH_Activity"
+417-->E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:386:13-56
+418            android:exported="false"
+418-->E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:387:13-37
+419            android:screenOrientation="portrait"
+419-->E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:388:13-49
+420            android:windowSoftInputMode="stateAlwaysHidden" /> <!-- 자동으로 키보드 올라오는것 방지(windowSoftInputMode) -->
+420-->E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:389:13-60
+421        <activity
+421-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\User\.gradle\caches\transforms-3\a1ef7c76a8d0224b49c3e7e827a08ab0\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:47:9-53:63
+422            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+422-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\User\.gradle\caches\transforms-3\a1ef7c76a8d0224b49c3e7e827a08ab0\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:48:13-74
+423            android:clearTaskOnLaunch="true"
+423-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\User\.gradle\caches\transforms-3\a1ef7c76a8d0224b49c3e7e827a08ab0\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:49:13-45
+424            android:screenOrientation="sensorLandscape"
+424-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\User\.gradle\caches\transforms-3\a1ef7c76a8d0224b49c3e7e827a08ab0\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:50:13-56
+425            android:stateNotNeeded="true"
+425-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\User\.gradle\caches\transforms-3\a1ef7c76a8d0224b49c3e7e827a08ab0\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:51:13-42
+426            android:theme="@style/zxing_CaptureTheme"
+426-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\User\.gradle\caches\transforms-3\a1ef7c76a8d0224b49c3e7e827a08ab0\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:52:13-54
+427            android:windowSoftInputMode="stateAlwaysHidden" />
+427-->[com.journeyapps:zxing-android-embedded:3.6.0] C:\Users\User\.gradle\caches\transforms-3\a1ef7c76a8d0224b49c3e7e827a08ab0\transformed\jetified-zxing-android-embedded-3.6.0\AndroidManifest.xml:53:13-60
+428    </application>
+429
+430</manifest>

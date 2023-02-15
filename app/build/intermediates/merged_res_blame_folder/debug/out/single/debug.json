@@ -104,10 +104,6 @@
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-main-30:\\layout\\activity_i35_hdr.xml"
     },
     {
-        "merged": "com.example.gmax.app-merged_res-28:/layout_activity_s12_pkg.xml.flat",
-        "source": "com.example.gmax.app-main-30:/layout/activity_s12_pkg.xml"
-    },
-    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-merged_res-28:\\layout_activity_m22_query.xml.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-main-30:\\layout\\activity_m22_query.xml"
     },
@@ -154,6 +150,10 @@
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-merged_res-28:\\drawable-v24_config.png.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-main-30:\\drawable-v24\\config.png"
+    },
+    {
+        "merged": "com.example.gmax.app-merged_res-28:/layout_list_view_s12_lotsearch.xml.flat",
+        "source": "com.example.gmax.app-main-30:/layout/list_view_s12_lotsearch.xml"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-merged_res-28:\\layout_activity_s13_dtl.xml.flat",
@@ -472,6 +472,10 @@
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-main-30:\\layout\\activity_m14_query.xml"
     },
     {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-merged_res-28:\\layout_list_view_string.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-main-30:\\layout\\list_view_string.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-merged_res-28:\\drawable-v24_bg_prg_menu1.xml.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-main-30:\\drawable-v24\\bg_prg_menu1.xml"
     },
@@ -506,6 +510,10 @@
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-merged_res-28:\\layout_activity_s11_dtl.xml.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-main-30:\\layout\\activity_s11_dtl.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-merged_res-28:\\layout_dialog_lot.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-main-30:\\layout\\dialog_lot.xml"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-merged_res-28:\\drawable-v24_bg_btn_left_after.xml.flat",
@@ -634,6 +642,10 @@
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-merged_res-28:\\drawable_ic_baseline_add_box_24.xml.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-main-30:\\drawable\\ic_baseline_add_box_24.xml"
+    },
+    {
+        "merged": "com.example.gmax.app-merged_res-28:/layout_activity_s12_lotsearch.xml.flat",
+        "source": "com.example.gmax.app-main-30:/layout/activity_s12_lotsearch.xml"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-merged_res-28:\\layout_activity_i11_dtl.xml.flat",

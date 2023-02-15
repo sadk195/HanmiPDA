@@ -382,6 +382,11 @@
             android:name=".M30.M31_HDR_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
+        <activity
+            android:name=".S10.S12_LOT_SEARCH_Activity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" /> <!-- 자동으로 키보드 올라오는것 방지(windowSoftInputMode) -->
     </application>
 
 </manifest>

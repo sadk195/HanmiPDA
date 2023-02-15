@@ -276,20 +276,16 @@
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-main-30:\\layout\\activity_i60.xml"
     },
     {
-        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-mergeDebugResources-27:\\layout\\activity_i37_dtl.xml",
-        "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-main-30:\\layout\\activity_i37_dtl.xml"
-    },
-    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-mergeDebugResources-27:\\layout\\list_view_i62_hdr.xml",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-main-30:\\layout\\list_view_i62_hdr.xml"
     },
     {
-        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-mergeDebugResources-27:\\layout\\activity_i74.xml",
-        "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-main-30:\\layout\\activity_i74.xml"
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-mergeDebugResources-27:\\layout\\activity_i37_dtl.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-main-30:\\layout\\activity_i37_dtl.xml"
     },
     {
-        "merged": "com.example.gmax.app-mergeDebugResources-27:/layout/activity_s12_pkg.xml",
-        "source": "com.example.gmax.app-main-30:/layout/activity_s12_pkg.xml"
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-mergeDebugResources-27:\\layout\\activity_i74.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-main-30:\\layout\\activity_i74.xml"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-mergeDebugResources-27:\\layout\\fragment_config.xml",
@@ -464,6 +460,10 @@
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-main-30:\\layout\\activity_s15_query.xml"
     },
     {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-mergeDebugResources-27:\\layout\\list_view_string.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-main-30:\\layout\\list_view_string.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-mergeDebugResources-27:\\layout\\list_view_s12_dtl_pkg.xml",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-main-30:\\layout\\list_view_s12_dtl_pkg.xml"
     },
@@ -494,6 +494,10 @@
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-mergeDebugResources-27:\\layout\\activity_i62_popup_edit_qty.xml",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-main-30:\\layout\\activity_i62_popup_edit_qty.xml"
+    },
+    {
+        "merged": "com.example.gmax.app-mergeDebugResources-27:/layout/list_view_s12_lotsearch.xml",
+        "source": "com.example.gmax.app-main-30:/layout/list_view_s12_lotsearch.xml"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-mergeDebugResources-27:\\layout\\activity_register.xml",
@@ -572,6 +576,10 @@
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-main-30:\\layout\\activity_s12_hdr.xml"
     },
     {
+        "merged": "com.example.gmax.app-mergeDebugResources-27:/layout/activity_s12_lotsearch.xml",
+        "source": "com.example.gmax.app-main-30:/layout/activity_s12_lotsearch.xml"
+    },
+    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-mergeDebugResources-27:\\layout\\list_view_i31_hdr.xml",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-main-30:\\layout\\list_view_i31_hdr.xml"
     },
@@ -582,6 +590,10 @@
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-mergeDebugResources-27:\\layout\\activity_search.xml",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-main-30:\\layout\\activity_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-mergeDebugResources-27:\\layout\\dialog_lot.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-main-30:\\layout\\dialog_lot.xml"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.gmax.app-mergeDebugResources-27:\\layout\\list_view_s11_query.xml",

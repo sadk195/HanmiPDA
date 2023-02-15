@@ -11,10 +11,10 @@ INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidMani
 	android:name
 		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:34:13-62
 manifest
-ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:1-387:12
-INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:1-387:12
-INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:1-387:12
-INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:1-387:12
+ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:1-392:12
+INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:1-392:12
+INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:1-392:12
+INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:1-392:12
 MERGED from [androidx.databinding:viewbinding:7.4.0] C:\Users\User\.gradle\caches\transforms-3\243e6c3ccd65b7e3bcdd1aee146f497f\transformed\jetified-viewbinding-7.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.github.Spikeysanju:MotionToast:1.4] C:\Users\User\.gradle\caches\transforms-3\ce0c0c304cfbce431c0fe7ad57eb240e\transformed\jetified-MotionToast-1.4\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.navigation:navigation-ui:2.3.1] C:\Users\User\.gradle\caches\transforms-3\7da93382ce32cec482172a8f6add38d3\transformed\navigation-ui-2.3.1\AndroidManifest.xml:17:1-24:12
@@ -65,20 +65,20 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\User\.gradle\caches\transforms-3\40d3d7c3b32b2b3f996b647420cd5534\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\User\.gradle\caches\transforms-3\3150cf7c9b77e480aa0237667e8a6f0a\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\User\.gradle\caches\transforms-3\90a8d6539372e2595f4591c28dd49e4b\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:1-387:12
-INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:1-387:12
-INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:1-387:12
+INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:1-392:12
+INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:1-392:12
+INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:1-392:12
 	package
 		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:3:5-31
 		INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml
 		INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:1-387:12
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:1-392:12
 		INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml
-		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:1-387:12
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:1-392:12
 		INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:2:11-69
@@ -113,7 +113,7 @@ ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifes
 	android:name
 		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:11:22-80
 application
-ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:13:5-385:19
+ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:13:5-390:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\User\.gradle\caches\transforms-3\918230bc518fbda57a95961fb740af16\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\User\.gradle\caches\transforms-3\918230bc518fbda57a95961fb740af16\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\User\.gradle\caches\transforms-3\2bd8ef232285a4f46ef0691379af4cda\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
@@ -842,6 +842,16 @@ ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifes
 		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:383:13-37
 	android:name
 		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:382:13-49
+activity#com.example.gmax.S10.S12_LOT_SEARCH_Activity
+ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:385:9-389:63
+	android:screenOrientation
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:388:13-49
+	android:windowSoftInputMode
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:389:13-60
+	android:exported
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:387:13-37
+	android:name
+		ADDED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml:386:13-56
 uses-sdk
 INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\main\AndroidManifest.xml

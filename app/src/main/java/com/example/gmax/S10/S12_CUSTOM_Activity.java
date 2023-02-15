@@ -9,6 +9,8 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import androidx.annotation.Nullable;
+
 import com.example.gmax.BaseActivity;
 import com.example.gmax.DBAccess;
 import com.example.gmax.R;
@@ -41,7 +43,7 @@ public class S12_CUSTOM_Activity extends BaseActivity {
     private TextView lbl_count;
 
     //== ActivityForResult 관련 변수 선언 ==//
-    private final int M13_DTL_REQUEST_CODE = 0;
+    private final int LOT_SEARCH_REQUEST_CODE = 2;
 
     //== M13_DTL 관련 변수 ==//
     private ArrayList<S12_CUSTOM> Lot_info;
@@ -49,7 +51,7 @@ public class S12_CUSTOM_Activity extends BaseActivity {
     private S12_CUSTOM_ListViewAdapter ListViewAdapter;
 
     //== View 선언(Button) ==//
-    private Button btn_lot,btn_end;
+    private Button btn_lot,btn_end,btn_search;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -85,6 +87,7 @@ public class S12_CUSTOM_Activity extends BaseActivity {
 
         btn_lot         = (Button) findViewById(R.id.btn_lot);
         btn_end         = (Button) findViewById(R.id.btn_end);
+        btn_search      = (Button) findViewById(R.id.btn_search);
 
         lbl_count       = (TextView) findViewById(R.id.lbl_count);
         //lbl_count_scan  = (TextView) findViewById(R.id.lbl_count_scan);
@@ -108,21 +111,22 @@ public class S12_CUSTOM_Activity extends BaseActivity {
                     lot_no.setText(temp);
                     tx_lot_no = lot_no.getText().toString();
 
-/*                    for(S12_CUSTOM dtl : Lot_info){
-                        if(dtl.getLOT_NO().equals(tx_lot_no)){
-                            dataSaveLog("수기등록 로드스캔","CKD_IN");
-
-                            Item_CD = dtl.getITEM_CD();
-                            carton_no.setText(dtl.getcarton_no());
-                            dataSaveLog("품명// "+dtl.getITEM_CD(),"CKD_IN");
-                            dataSaveLog("거래명세서 번호// "+dtl.getcarton_no(),"CKD_IN");
-                        }
-                    }*/
 
                     start();
                     return true;
                 }
                 return false;
+            }
+        });
+
+        btn_search.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v) {
+
+                //데이터 담아서 팝업(액티비티) 호출
+                Intent intent = new Intent(getApplicationContext(), S12_LOT_SEARCH_Activity.class);
+                //intent.putExtra("data", "Test Popup");
+                startActivityForResult(intent, 2);
+
             }
         });
 
@@ -226,6 +230,8 @@ public class S12_CUSTOM_Activity extends BaseActivity {
             public void run() {
 
                 String sql = "EXEC DBO.XUSP_MES_S2002PA2_GET_LOT_CUSTOM ";
+                sql += "@FLAG ='L',"; //
+                sql += "@ITEM_CD ='',"; //
                 sql += "@LOT_NO ='"+tx_lot_no+"',"; //
                 sql += "@PLANT_CD ='" + vPLANT_CD +"',"; //carton 번호 조회시 빈값으로 조회
                 sql += "@USER_ID ='" + vUSER_ID + "'";
@@ -363,5 +369,22 @@ public class S12_CUSTOM_Activity extends BaseActivity {
         return true;
     }
 
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        switch (requestCode){
+            case LOT_SEARCH_REQUEST_CODE:
+                if(resultCode==RESULT_OK){
+                    //데이터 받기
+                    String result = data.getStringExtra("result");
+                    lot_no.setText(result);
+                    tx_lot_no = result;
+                    start();
+                }
+
+                break;
+        }
+    }
 
 }

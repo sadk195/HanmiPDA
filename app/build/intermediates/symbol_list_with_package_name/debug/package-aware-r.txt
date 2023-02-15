@@ -2139,6 +2139,7 @@ id SYM
 id Scan_item_cd
 id Scan_location
 id SecondFragment
+id St_textview
 id TOP_END
 id TOP_START
 id TRACKING_NO
@@ -2315,6 +2316,7 @@ id btn_Fabric_Inventory_status
 id btn_Fabric_Receiving
 id btn_Fabric_Success
 id btn_Login
+id btn_OK
 id btn_Prodt_Warehousing_Out_query
 id btn_Prodt_Warehousing_Out_save
 id btn_Purchase_Warehousing_Out_query
@@ -2378,6 +2380,7 @@ id btn_save
 id btn_save_S16
 id btn_save_go
 id btn_scan
+id btn_search
 id btn_selectd_query
 id btn_shipment_location_goods_status
 id btn_shipment_location_move
@@ -3280,6 +3283,7 @@ layout activity_s12_custom
 layout activity_s12_dtl
 layout activity_s12_hdr
 layout activity_s12_lot
+layout activity_s12_lotsearch
 layout activity_s12_pkg
 layout activity_s13_dtl
 layout activity_s13_query
@@ -3364,6 +3368,7 @@ layout list_view_s12_dtl
 layout list_view_s12_dtl_pkg
 layout list_view_s12_hdr
 layout list_view_s12_lot
+layout list_view_s12_lotsearch
 layout list_view_s12_pkg
 layout list_view_s13_query
 layout list_view_s14_dtl
