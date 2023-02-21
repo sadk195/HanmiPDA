@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.gmax.app-mergeDebugResources-26:/values-h720dp-v13/values-h720dp-v13.xml",
+            "outputFile": "com.PDA.gmax.app-mergeDebugResources-26:/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\70a4aa8d29509b83dacadfc3a6bcdd52\\transformed\\appcompat-1.3.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",

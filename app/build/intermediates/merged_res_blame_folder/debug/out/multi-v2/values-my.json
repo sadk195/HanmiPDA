@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.gmax.app-mergeDebugResources-26:/values-my/values-my.xml",
+            "outputFile": "com.PDA.gmax.app-mergeDebugResources-26:/values-my/values-my.xml",
             "map": [
                 {
                     "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\918230bc518fbda57a95961fb740af16\\transformed\\material-1.4.0\\res\\values-my\\values-my.xml",

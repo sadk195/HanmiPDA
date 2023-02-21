@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.gmax.app-mergeDebugResources-26:/values-tr/values-tr.xml",
+            "outputFile": "com.PDA.gmax.app-mergeDebugResources-26:/values-tr/values-tr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\d7944380c443ba4df2b5f0d083e74a73\\transformed\\core-1.5.0\\res\\values-tr\\values-tr.xml",

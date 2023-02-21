@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.gmax">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.PDA.gmax">
     <!-- WebService 사용시 추가 할 코드 -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -11,7 +12,7 @@
     <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
 
     <application
-        android:name=".MySession"
+        android:name="com.PDA.gmax.MySession"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -21,10 +22,11 @@
         android:theme="@style/AppGJTheme"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".dialog_Loading"
+            android:name="com.PDA.gmax.dialog_Loading"
             android:exported="false"
             android:label="@string/title_activity_loading"
-            android:theme="@style/AppGJTheme.NoActionBar">
+            android:theme="@style/AppGJTheme.NoActionBar"
+            tools:ignore="Instantiatable">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -41,349 +43,349 @@
         </provider>
 
         <activity
-            android:name=".SplashActivity"
-            android:screenOrientation="portrait">
+            android:name="com.PDA.gmax.SplashActivity"
+            android:screenOrientation="portrait"
+            android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
+                <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".ConfigActivity"
+            android:name="com.PDA.gmax.ConfigActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.PDA.gmax.MainActivity"
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".RegisterActivity"
+            android:name="com.PDA.gmax.RegisterActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ErrorPopupActivity"
+            android:name="com.PDA.gmax.ErrorPopupActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MenuActivity"
+            android:name="com.PDA.gmax.MenuActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".M10.M10_Activity"
+            android:name="com.PDA.gmax.M10.M10_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".M10.M11_HDR_Activity"
+            android:name="com.PDA.gmax.M10.M11_HDR_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".M10.M11_DTL_Activity"
+            android:name="com.PDA.gmax.M10.M11_DTL_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".M10.M12_QUERY_Activity"
+            android:name="com.PDA.gmax.M10.M12_QUERY_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".M10.M13_DTL_Activity"
+            android:name="com.PDA.gmax.M10.M13_DTL_Activity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" /> <!-- 자동으로 키보드 올라오는것 방지(windowSoftInputMode) -->
         <activity
-            android:name=".M10.M13_LOT_Activity"
+            android:name="com.PDA.gmax.M10.M13_LOT_Activity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" /> <!-- 자동으로 키보드 올라오는것 방지(windowSoftInputMode) -->
         <activity
-            android:name=".M10.M14_QUERY_Activity"
+            android:name="com.PDA.gmax.M10.M14_QUERY_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".M20.M20_Activity"
+            android:name="com.PDA.gmax.I70.M20.M20_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".M20.M21_HDR_Activity"
+            android:name="com.PDA.gmax.I70.M20.M21_HDR_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".M20.M21_DTL_Activity"
+            android:name="com.PDA.gmax.I70.M20.M21_DTL_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".M20.M22_QUERY_Activity"
+            android:name="com.PDA.gmax.I70.M20.M22_QUERY_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".M40.M40_Activity"
+            android:name="com.PDA.gmax.M40.M40_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".M40.M41_DTL_Activity"
+            android:name="com.PDA.gmax.M40.M41_DTL_Activity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".M40.M41_QUERY_Activity"
+            android:name="com.PDA.gmax.M40.M41_QUERY_Activity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".M40.M42_DTL_Activity"
+            android:name="com.PDA.gmax.M40.M42_DTL_Activity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name=".M40.M43_QUERY_Activity"
+            android:name="com.PDA.gmax.M40.M43_QUERY_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".M40.M43_DTL_Activity"
+            android:name="com.PDA.gmax.M40.M43_DTL_Activity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name=".M40.M44_DTL_Activity"
+            android:name="com.PDA.gmax.M40.M44_DTL_Activity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name=".I10.I10_Activity"
+            android:name="com.PDA.gmax.I10.I10_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".I10.I11_HDR_Activity"
+            android:name="com.PDA.gmax.I10.I11_HDR_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".I10.I11_DTL_Activity"
+            android:name="com.PDA.gmax.I10.I11_DTL_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".I10.I13_QUERY_Activity"
+            android:name="com.PDA.gmax.I10.I13_QUERY_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".I20.I20_Activity"
+            android:name="com.PDA.gmax.I20.I20_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".I20.I21_HDR_Activity"
+            android:name="com.PDA.gmax.I20.I21_HDR_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".I20.I21_DTL_Activity"
+            android:name="com.PDA.gmax.I20.I21_DTL_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".I20.I22_HDR_Activity"
+            android:name="com.PDA.gmax.I20.I22_HDR_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".I20.I22_DTL_Activity"
+            android:name="com.PDA.gmax.I20.I22_DTL_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".I20.I25_QUERY_Activity"
+            android:name="com.PDA.gmax.I20.I25_QUERY_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".I20.I26_HDR_Activity"
+            android:name="com.PDA.gmax.I20.I26_HDR_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".I20.I27_HDR_Activity"
+            android:name="com.PDA.gmax.I20.I27_HDR_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".I20.I27_DTL_Activity"
+            android:name="com.PDA.gmax.I20.I27_DTL_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".I30.I30_Activity"
+            android:name="com.PDA.gmax.I30.I30_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".I30.I31_HDR_Activity"
+            android:name="com.PDA.gmax.I30.I31_HDR_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".I30.I31_DTL_Activity"
+            android:name="com.PDA.gmax.I30.I31_DTL_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".I30.I34_QUERY_Activity"
+            android:name="com.PDA.gmax.I30.I34_QUERY_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".I30.I35_HDR_Activity"
+            android:name="com.PDA.gmax.I30.I35_HDR_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".I30.I35_DTL_Activity"
+            android:name="com.PDA.gmax.I30.I35_DTL_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".I30.I36_QUERY_Activity"
+            android:name="com.PDA.gmax.I30.I36_QUERY_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".I30.I37_HDR_Activity"
+            android:name="com.PDA.gmax.I30.I37_HDR_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".I30.I37_DTL_Activity"
+            android:name="com.PDA.gmax.I30.I37_DTL_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".I30.I38_HDR_Activity"
+            android:name="com.PDA.gmax.I30.I38_HDR_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".I30.I38_DTL_Activity"
+            android:name="com.PDA.gmax.I30.I38_DTL_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".I40.I40_Activity"
+            android:name="com.PDA.gmax.I40.I40_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".I50.I50_Activity"
+            android:name="com.PDA.gmax.I50.I50_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".I60.I60_Activity"
+            android:name="com.PDA.gmax.I60.I60_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".I60.I62_HDR_Activity"
+            android:name="com.PDA.gmax.I60.I62_HDR_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".S10.S10_Activity"
+            android:name="com.PDA.gmax.S10.S10_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".S10.S11_QUERY_Activity"
+            android:name="com.PDA.gmax.S10.S11_QUERY_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".S10.S11_DTL_Activity"
+            android:name="com.PDA.gmax.S10.S11_DTL_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".S10.S12_HDR_Activity"
+            android:name="com.PDA.gmax.S10.S12_HDR_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".S10.S12_DTL_Activity"
+            android:name="com.PDA.gmax.S10.S12_DTL_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".S10.S12_PKG_Activity"
+            android:name="com.PDA.gmax.S10.S12_PKG_Activity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" /> <!-- 자동으로 키보드 올라오는것 방지(windowSoftInputMode) -->
         <activity
-            android:name=".S10.S12_LOT_Activity"
+            android:name="com.PDA.gmax.S10.S12_LOT_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".S10.S12_CUSTOM_Activity"
+            android:name="com.PDA.gmax.S10.S12_CUSTOM_Activity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" /> <!-- 자동으로 키보드 올라오는것 방지(windowSoftInputMode) -->
         <activity
-            android:name=".S10.S13_QUERY_Activity"
+            android:name="com.PDA.gmax.S10.S13_QUERY_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".S10.S14_HDR_Activity"
+            android:name="com.PDA.gmax.S10.S14_HDR_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".S10.S14_DTL_Activity"
+            android:name="com.PDA.gmax.S10.S14_DTL_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".S10.S15_QUERY_Activity"
+            android:name="com.PDA.gmax.S10.S15_QUERY_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".S10.S16_HDR_Activity"
+            android:name="com.PDA.gmax.S10.S16_HDR_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".S10.S16_DTL_Activity"
+            android:name="com.PDA.gmax.S10.S16_DTL_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".S10.S17_HDR_Activity"
+            android:name="com.PDA.gmax.S10.S17_HDR_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".I70.I70_Activity"
+            android:name="com.PDA.gmax.I70.I70_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".I70.I71_Activity"
+            android:name="com.PDA.gmax.I70.I71_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".I70.I72_Activity"
+            android:name="com.PDA.gmax.I70.I72_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".I70.I73_Activity"
+            android:name="com.PDA.gmax.I70.I73_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".I70.I74_Activity"
+            android:name="com.PDA.gmax.I70.I74_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".I70.I75_Activity"
+            android:name="com.PDA.gmax.I70.I75_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".I70.I76_Activity"
+            android:name="com.PDA.gmax.I70.I76_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".I70.I77_Activity"
+            android:name="com.PDA.gmax.I70.I77_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".I70.I78_Activity"
+            android:name="com.PDA.gmax.I70.I78_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".I70.I79_Activity"
+            android:name="com.PDA.gmax.I70.I79_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".P10.P10_Activity"
+            android:name="com.PDA.gmax.P10.P10_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".P10.P14_QUERY_Activity"
+            android:name="com.PDA.gmax.P10.P14_QUERY_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".P10.P14_SAVE_Activity"
+            android:name="com.PDA.gmax.P10.P14_SAVE_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".M30.M30_Activity"
+            android:name="com.PDA.gmax.M30.M30_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".M30.M31_HDR_Activity"
+            android:name="com.PDA.gmax.M30.M31_HDR_Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".S10.S12_LOT_SEARCH_Activity"
+            android:name="com.PDA.gmax.S10.S12_LOT_SEARCH_Activity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" /> <!-- 자동으로 키보드 올라오는것 방지(windowSoftInputMode) -->

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.gmax.app-mergeDebugResources-26:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+            "outputFile": "com.PDA.gmax.app-mergeDebugResources-26:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\918230bc518fbda57a95961fb740af16\\transformed\\material-1.4.0\\res\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",

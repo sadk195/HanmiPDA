@@ -4,7 +4,7 @@
     "type": "COMPATIBLE_SCREEN_MANIFEST",
     "kind": "Directory"
   },
-  "applicationId": "com.example.gmax",
+  "applicationId": "com.PDA.gmax",
   "variantName": "debug",
   "elements": []
 }

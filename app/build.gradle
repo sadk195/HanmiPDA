@@ -2,12 +2,20 @@ plugins {
     id 'com.android.application'
 }
 android {
+    signingConfigs {
+        release {
+            storeFile file('C:\\KEYSTORE\\GMAX.jks')
+            storePassword 'tgsdev1@'
+            keyAlias = 'GMAXkey0'
+            keyPassword 'tgsdev1@'
+        }
+    }
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.example.gmax"
+        applicationId "com.PDA.gmax"
         minSdkVersion 23
-        targetSdkVersion 27
-        versionCode 7
+        targetSdkVersion 31
+        versionCode 8
         versionName "1.1.7"
         // 컨셉이나 디자인 등 큰틀이 변한경우 / 기능추가, 기능 삭제 및 사양 등이 변경된 경우 / 버그수정, 디자인수정 등
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -16,6 +24,12 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
         }
     }
     buildFeatures {

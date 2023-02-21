@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.gmax.app-mergeDebugResources-26:/values-en-rAU/values-en-rAU.xml",
+            "outputFile": "com.PDA.gmax.app-mergeDebugResources-26:/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
                     "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\d7944380c443ba4df2b5f0d083e74a73\\transformed\\core-1.5.0\\res\\values-en-rAU\\values-en-rAU.xml",

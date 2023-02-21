@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.gmax.app-mergeDebugResources-26:/values-w1240dp-v13/values-w1240dp-v13.xml",
+            "outputFile": "com.PDA.gmax.app-mergeDebugResources-26:/values-w1240dp-v13/values-w1240dp-v13.xml",
             "map": [
                 {
                     "source": "E:\\TGS\\company_dev\\gmax\\ANDROID\\GMAX_real\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
