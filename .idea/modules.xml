@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/GMAX.iml" filepath="$PROJECT_DIR$/.idea/modules/GMAX.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/GMAX.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/GMAX.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/GMAX.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/GMAX.app.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/GMAX.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/GMAX.app.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/GMAX.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/GMAX.app.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.GMAX.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.GMAX.app.androidTest.iml" />

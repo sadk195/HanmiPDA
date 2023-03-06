@@ -12,7 +12,7 @@ android {
     }
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.PDA.gmax"
+        applicationId "com.PDA.Hanmi"
         minSdkVersion 23
         targetSdkVersion 31
         versionCode 8
