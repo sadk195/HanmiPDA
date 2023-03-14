@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GMAX</string>
+    <string name="app_name">Hanmi</string>
     <!-- MainActivity -->
     <string name="text_login">ID</string>
     <string name="text_password">PASS</string>
@@ -41,7 +41,7 @@
     <string name="M11_btn_title">검사품입고\n등록</string>
     <string name="M12_btn_title">검사품입고\n현황조회</string>
     <string name="M13_btn_title">구매입고\n등록</string>
-    <string name="M14_btn_title">구매입고\n현황조회</string>
+    <string name="M14_btn_title">구매입고\n조회</string>
     <!-- 생산입고관리(M20) -->
     <string name="M21_btn_title">생산입고\n등록</string>
     <string name="M22_btn_title">생산입고\n조회</string>
@@ -56,7 +56,7 @@
     <string name="I12_btn_title">창고재고조회</string>
     <string name="I13_btn_title">품목재고조회\n(함안)</string>
     <!-- 재고이동(I20) -->
-    <string name="I21_btn_title">적치장 이동</string>
+    <string name="I21_btn_title">재고 이동</string>
     <string name="I22_btn_title">창고 이동</string>
     <string name="I23_btn_title">TRACKING\n이동</string>
     <string name="I24_btn_title">사업장 이동</string>
@@ -86,11 +86,11 @@
     <string name="I63_btn_title">개발용\n자재반입(불량)</string>
     <string name="I64_btn_title">개발용\n출고/반입현황</string>
     <!-- 출하관리(S10) -->
-    <string name="S11_btn_title">출하요청현황</string>
+    <string name="S11_btn_title">출하요청\n조회</string>
     <string name="S12_btn_title">출하등록</string>
     <string name="S12_1_btn_title">포장등록</string>
 
-    <string name="S13_btn_title">출하현황</string>
+    <string name="S13_btn_title">출하현황\n조회</string>
     <string name="S14_btn_title">출하대기장\n이동 등록\n(적치장 이동)</string>
     <string name="S15_btn_title">출하대기장\n이동현황조회</string>
     <string name="S16_btn_title">적치장재고\n출하등록\n(출하등록)</string>

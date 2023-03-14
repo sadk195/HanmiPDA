@@ -15,8 +15,8 @@ android {
         applicationId "com.PDA.Hanmi"
         minSdkVersion 23
         targetSdkVersion 31
-        versionCode 8
-        versionName "1.1.7"
+        versionCode 1
+        versionName "1.0.0"
         // 컨셉이나 디자인 등 큰틀이 변한경우 / 기능추가, 기능 삭제 및 사양 등이 변경된 경우 / 버그수정, 디자인수정 등
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }

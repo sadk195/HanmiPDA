@@ -177,7 +177,7 @@
             android:padding="10dp"
             android:layout_gravity="center|right"
             android:layout_weight="7"
-            android:src="@drawable/gmaxlogo" />
+            android:src="@drawable/hanmilogo" />
 
     </LinearLayout>
 

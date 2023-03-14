@@ -98,7 +98,7 @@ public class BaseActivity extends AppCompatActivity {
         Thread wkThd_getMajorMenuGrant = new Thread() {
             public void run() {
                 String sql = " exec USP_MENU_LOAD";
-                sql += " @FLAG = '0'";                      //== 0 : 사용하는메뉴만, 1 : 전체 : 1(기본값 0)
+                sql += "  @FLAG = '0'";                      //== 0 : 사용하는메뉴만, 1 : 전체 : 1(기본값 0)
                 sql += ", @USER_ID = '" + vUSER_ID + "'";   //== USER_ID
                 sql += ", @PAR_ID = 'APK'";                 //== APK
                 sql += ", @LANG_CD = 'KO'";                 //== KO

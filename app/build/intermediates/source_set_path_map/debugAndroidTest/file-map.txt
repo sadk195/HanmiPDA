@@ -1,7 +1,7 @@
-com.example.gmax.test.app-androidTest-0 E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\build\generated\res\resValues\androidTest\debug
-com.example.gmax.test.app-androidTest-1 E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\build\generated\res\rs\androidTest\debug
-com.example.gmax.test.app-mergeDebugAndroidTestResources-2 E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-com.example.gmax.test.app-mergeDebugAndroidTestResources-3 E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-com.example.gmax.test.app-merged_res-4 E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\build\intermediates\merged_res\debugAndroidTest
-com.example.gmax.test.app-androidTest-5 E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\androidTest\res
-com.example.gmax.test.app-androidTestDebug-6 E:\TGS\company_dev\gmax\ANDROID\GMAX_real\app\src\androidTestDebug\res
+com.PDA.Hanmi.test.app-androidTest-0 E:\TGS\company_dev\Hanmi\ANDROID\Hanmi\app\build\generated\res\resValues\androidTest\debug
+com.PDA.Hanmi.test.app-androidTest-1 E:\TGS\company_dev\Hanmi\ANDROID\Hanmi\app\build\generated\res\rs\androidTest\debug
+com.PDA.Hanmi.test.app-mergeDebugAndroidTestResources-2 E:\TGS\company_dev\Hanmi\ANDROID\Hanmi\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.PDA.Hanmi.test.app-mergeDebugAndroidTestResources-3 E:\TGS\company_dev\Hanmi\ANDROID\Hanmi\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.PDA.Hanmi.test.app-merged_res-4 E:\TGS\company_dev\Hanmi\ANDROID\Hanmi\app\build\intermediates\merged_res\debugAndroidTest
+com.PDA.Hanmi.test.app-androidTest-5 E:\TGS\company_dev\Hanmi\ANDROID\Hanmi\app\src\androidTest\res
+com.PDA.Hanmi.test.app-androidTestDebug-6 E:\TGS\company_dev\Hanmi\ANDROID\Hanmi\app\src\androidTestDebug\res

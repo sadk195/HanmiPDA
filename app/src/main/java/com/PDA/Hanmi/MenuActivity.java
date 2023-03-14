@@ -14,7 +14,6 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-import com.PDA.Hanmi.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import org.json.JSONArray;
@@ -351,6 +350,7 @@ public class MenuActivity extends BaseActivity {
                 String sql = " exec XUSP_AND_APK_MENU_LIST @FLAG=''," +
                         "@USER_ID='" + pID + "',@UNIT_TYPE='" + global.getUnitTypeString() + "'";
 
+                System.out.println("sqls:"+sql);
 
                 DBAccess dba = new DBAccess(TGSClass.ws_name_space, TGSClass.ws_url);
 

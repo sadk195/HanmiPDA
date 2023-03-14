@@ -111,6 +111,7 @@
                     android:text="@string/S12_1_btn_title"
                     android:textSize="@dimen/menu_btn_size"
                     app:elevation="@dimen/el_5dp"
+                    android:visibility="gone"
                     app:shapeAppearance="@style/ShapeAppearance.App.SmallComponent" />
 
                 <com.google.android.material.button.MaterialButton

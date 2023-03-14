@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GMAX.iml" filepath="$PROJECT_DIR$/.idea/modules/GMAX.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/GMAX.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/GMAX.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/GMAX.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/GMAX.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/GMAX.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/GMAX.app.unitTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.GMAX.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.GMAX.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Hanmi.iml" filepath="$PROJECT_DIR$/.idea/modules/Hanmi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Hanmi.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Hanmi.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Hanmi.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Hanmi.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Hanmi.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Hanmi.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Hanmi.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Hanmi.app.unitTest.iml" />
     </modules>
   </component>
 </project>

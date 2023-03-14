@@ -70,8 +70,8 @@
                     android:layout_weight="1"
                     android:text="@string/I21_btn_title"
                     android:textSize="@dimen/menu_btn_size"
-                    app:shapeAppearance="@style/ShapeAppearance.App.SmallComponent"
-                    app:elevation="@dimen/el_5dp" />
+                    app:elevation="@dimen/el_5dp"
+                    app:shapeAppearance="@style/ShapeAppearance.App.SmallComponent" />
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btn_warehouse"
@@ -81,8 +81,8 @@
                     android:layout_weight="1"
                     android:text="@string/I22_btn_title"
                     android:textSize="@dimen/menu_btn_size"
-                    app:shapeAppearance="@style/ShapeAppearance.App.SmallComponent"
-                    app:elevation="@dimen/el_5dp" />
+                    app:elevation="@dimen/el_5dp"
+                    app:shapeAppearance="@style/ShapeAppearance.App.SmallComponent" />
 
             </LinearLayout>
 
@@ -93,6 +93,7 @@
                 android:layout_below="@id/btn_box1"
                 android:layout_centerHorizontal="true"
                 android:orientation="horizontal"
+                android:visibility="gone"
                 android:weightSum="2">
 
                 <com.google.android.material.button.MaterialButton
@@ -104,9 +105,9 @@
                     android:layout_weight="1"
                     android:text="@string/I23_btn_title"
                     android:textSize="@dimen/menu_btn_size"
+                    app:elevation="@dimen/el_0dp"
                     app:shapeAppearance="@style/ShapeAppearance.App.SmallComponent"
-                    app:strokeWidth="@dimen/btn_stroke"
-                    app:elevation="@dimen/el_0dp"/>
+                    app:strokeWidth="@dimen/btn_stroke" />
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btn_workplace"
@@ -117,9 +118,9 @@
                     android:layout_weight="1"
                     android:text="@string/I24_btn_title"
                     android:textSize="@dimen/menu_btn_size"
+                    app:elevation="@dimen/el_0dp"
                     app:shapeAppearance="@style/ShapeAppearance.App.SmallComponent"
-                    app:strokeWidth="@dimen/btn_stroke"
-                    app:elevation="@dimen/el_0dp" />
+                    app:strokeWidth="@dimen/btn_stroke" />
 
             </LinearLayout>
 
@@ -140,8 +141,8 @@
                     android:layout_weight="1"
                     android:text="@string/I25_btn_title"
                     android:textSize="@dimen/menu_btn_size"
-                    app:shapeAppearance="@style/ShapeAppearance.App.SmallComponent"
-                    app:elevation="@dimen/el_5dp" />
+                    app:elevation="@dimen/el_5dp"
+                    app:shapeAppearance="@style/ShapeAppearance.App.SmallComponent" />
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btn_move"
@@ -151,8 +152,9 @@
                     android:layout_weight="1"
                     android:text="@string/I26_btn_title"
                     android:textSize="@dimen/menu_btn_size"
-                    app:shapeAppearance="@style/ShapeAppearance.App.SmallComponent"
-                    app:elevation="@dimen/el_5dp" />
+                    android:visibility="invisible"
+                    app:elevation="@dimen/el_5dp"
+                    app:shapeAppearance="@style/ShapeAppearance.App.SmallComponent" />
 
             </LinearLayout>
 
@@ -163,7 +165,9 @@
                 android:layout_below="@id/btn_box3"
                 android:layout_centerHorizontal="true"
                 android:orientation="horizontal"
-                android:weightSum="2">
+                android:weightSum="2"
+                android:visibility="gone"
+                >
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btn_item_qty_move"

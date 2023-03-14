@@ -130,6 +130,7 @@ public class RegisterActivity extends AppCompatActivity {
                 sql += " , @RTN_MSG =  @RTN_MSG  OUTPUT";
                 sql += " SELECT  @RTN_MSG AS RTN_MSG ";
 
+
                 DBAccess dba = new DBAccess(TGSClass.ws_name_space, TGSClass.ws_url);
 
                 ArrayList<PropertyInfo> pParms = new ArrayList<>();

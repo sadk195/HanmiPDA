@@ -1,4 +1,4 @@
-com.PDA.gmax
+com.PDA.Hanmi
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -1991,6 +1991,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable gmaxlogo
+drawable hanmilogo
 drawable ic_baseline_add_24
 drawable ic_baseline_add_box_24
 drawable ic_baseline_close_24
@@ -2120,7 +2121,6 @@ id OPT
 id PRODT_ORDER_NO
 id Pulse
 id PulseRing
-id QR_Code
 id QTY
 id REQ_QTY2
 id RotatingCircle
@@ -2311,10 +2311,6 @@ id box_view5
 id bp_cd
 id bp_nm
 id btn_End
-id btn_Fabric_Input
-id btn_Fabric_Inventory_status
-id btn_Fabric_Receiving
-id btn_Fabric_Success
 id btn_Login
 id btn_OK
 id btn_Prodt_Warehousing_Out_query
@@ -2339,7 +2335,6 @@ id btn_choice_query
 id btn_combo_sl_cd
 id btn_custom
 id btn_del
-id btn_dtl
 id btn_end
 id btn_h1_outorder_register
 id btn_h1_traveler_register
@@ -2699,7 +2694,6 @@ id lbl_btn
 id lbl_caption
 id lbl_center_layout
 id lbl_cnt
-id lbl_column
 id lbl_count
 id lbl_count_scan
 id lbl_device_name
@@ -3263,13 +3257,6 @@ layout activity_m21_dtl
 layout activity_m22_query
 layout activity_m30
 layout activity_m31_hdr
-layout activity_m40
-layout activity_m41_dtl
-layout activity_m41_query
-layout activity_m42_dtl
-layout activity_m43_dtl
-layout activity_m43_query
-layout activity_m44_dtl
 layout activity_main
 layout activity_menu
 layout activity_p10

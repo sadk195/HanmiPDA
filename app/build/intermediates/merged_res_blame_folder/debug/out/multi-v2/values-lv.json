@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.PDA.gmax.app-mergeDebugResources-26:/values-lv/values-lv.xml",
+            "outputFile": "com.PDA.Hanmi.app-mergeDebugResources-26:/values-lv/values-lv.xml",
             "map": [
                 {
                     "source": "C:\\Users\\User\\.gradle\\caches\\transforms-3\\70a4aa8d29509b83dacadfc3a6bcdd52\\transformed\\appcompat-1.3.1\\res\\values-lv\\values-lv.xml",

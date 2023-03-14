@@ -27,7 +27,6 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.core.content.FileProvider;
 
-import com.PDA.Hanmi.R;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.textfield.TextInputLayout;
@@ -83,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
     public int intVersionNo, intVersion = 1;
 
     //== String 선언 ==//
-    private final String FILE_NAME = "GMAX.apk";
+    private final String FILE_NAME = "Hanmi.apk";
 
     //== 변수 선언 ==//
     private String strClientIP, strClientHostNm, strErrorMsg;
@@ -252,6 +251,7 @@ public class MainActivity extends AppCompatActivity {
         Thread workThd_dbQuery = new Thread() {
             public void run() {
                 String sql = " EXEC XUSP_AND_APK_DEVICE_CHECK @UNIT_CD = '" + pDevice + "'";
+                System.out.println("sqls:"+sql);
 
                 DBAccess dba = new DBAccess(TGSClass.ws_name_space, TGSClass.ws_url);
 
@@ -265,6 +265,8 @@ public class MainActivity extends AppCompatActivity {
                 pParams.add(param);
 
                 strJson = dba.SendHttpMessage("GetSQLData", pParams);
+                System.out.println("strJson:"+strJson);
+
             }
         };
 
@@ -640,9 +642,6 @@ public class MainActivity extends AppCompatActivity {
         Thread workThd_getVersionFromServer = new Thread() {
             public void run() {
                 String sql = " EXEC XUSP_AND_APP_VERSION_GET @FILENAME = '" + FILE_NAME + "'";
-
-                System.out.println("sqls:"+sql);
-
                 DBAccess dba = new DBAccess(TGSClass.ws_name_space, TGSClass.ws_url);
 
                 ArrayList<PropertyInfo> pParams = new ArrayList<>();
@@ -655,7 +654,6 @@ public class MainActivity extends AppCompatActivity {
                 pParams.add(param);
 
                 strJsonVersion = dba.SendHttpMessage("GetSQLData", pParams);
-                System.out.println("strJsonVersion:"+strJsonVersion);
 
             }
         };
